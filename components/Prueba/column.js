@@ -5,6 +5,7 @@ import List from "@material-ui/core/List";
 import ListItemCustom from "./listItemCustom";
 import { Typography } from "@material-ui/core";
 import { makeStyles } from '@material-ui/core/styles';
+import uuid from "uuid/v4";
 
 const useStyles = makeStyles((theme) => ({
   title: {
@@ -37,7 +38,7 @@ const Column = ({ column }) => {
           <RootRef rootRef={provided.innerRef}>
             <List  key={column.id}>
               {column.list.map((itemObject, index) => {
-                return <ListItemCustom index={index} itemObject={itemObject} key={index} />;
+                return <ListItemCustom index={index} key={uuid()} itemObject={itemObject} />;
               })}
               {provided.placeholder}
             </List>

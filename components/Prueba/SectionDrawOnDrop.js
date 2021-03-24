@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Grid } from "@material-ui/core";
 import makeStyles from "@material-ui/core/styles/makeStyles";
-import { DragDropContext } from "react-beautiful-dnd";
+import { DragDropContext, resetServerContext } from "react-beautiful-dnd";
 import Column from "./column";
 import NewBtnItem from './newItem';
 
@@ -16,6 +16,10 @@ const Prueba = () => {
   const classes = useStyles();
 
   const [columns, setColumns] = useState(initialColumns);
+
+  useEffect(()=>{
+    resetServerContext()
+  },[])
 
   const onDragEnd = ({ source, destination }) => {
     // Make sure we have a valid destination
@@ -108,17 +112,16 @@ const Prueba = () => {
   } 
 
   return (
-    <DragDropContext onDragEnd={onDragEnd} key={'prueba'}>
-      <Grid container direction={"row"} justify={"center"} key={'prueba-container'}>
+    <DragDropContext onDragEnd={onDragEnd}>
+      <Grid container direction={"row"} justify={"center"}>
         {Object.values(columns).map((column) => {
           return (
             <Grid 
                item 
-               xs={12} 
-               sm={4} 
+               xs={12}
                md={4} 
                className={classes.container}
-               key={`${column.id}-grid`}
+               key={column.id}
             >
               <NewBtnItem addItem={addItem} column={column}  key={`${column.id}-btn`}/>
               <Column 

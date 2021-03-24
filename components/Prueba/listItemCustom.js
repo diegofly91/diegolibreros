@@ -25,13 +25,14 @@ const ListItemCustom = ({ itemObject, index }) => {
   return (
     <Draggable 
        draggableId={itemObject.id} 
-       key={`${itemObject.id}`} 
+       key={itemObject.id} 
        index={index}
        >
       {(provided) => (
         <ListItem
+          key={itemObject.id} 
           className={classes.container}
-          innerRef={provided.innerRef}
+          ref={provided.innerRef}
           {...provided.draggableProps}
           {...provided.dragHandleProps}
         >

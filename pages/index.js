@@ -22,17 +22,6 @@ export default function ProfilePage(props) {
   const { ...rest } = props;
   return (
     <div>
-      {/* <Header
-        color="transparent"
-        brand="NextJS Material Kit"
-        rightLinks={<HeaderLinks />}
-        fixed
-        changeColorOnScroll={{
-          height: 200,
-          color: "white"
-        }}
-        {...rest}
-      /> */}
       <Parallax filter responsive image={require("../public/working-on-code.jpg")} >
         <div className={classes.containerView}>
             <GridContainer>

@@ -39,11 +39,15 @@ export default function SectionCV(){
                             tabIcon: SchoolIcon,
                             tabContent: (
                             <GridContainer justify="center">
-                                <GridItem className={classes.containerGrid} xs={12} sm={12} md={6}>
+                                <GridItem 
+                                //   className={classes.containerGrid} 
+                                  xs={12} sm={12} md={6}>
                                     <UnillanosItem />
                                     <UdemyItem />
                                 </GridItem>
-                                <GridItem className={classes.containerGrid} xs={12} sm={12} md={6}>
+                                <GridItem 
+                                //   className={classes.containerGrid} 
+                                  xs={12} sm={12} md={6}>                                    
                                     <PlatziItem />
                                     <UTNItem />
                                 </GridItem>
@@ -55,11 +59,15 @@ export default function SectionCV(){
                             tabIcon: WorkOutlineIcon,
                             tabContent: (
                             <GridContainer justify="center">
-                                <GridItem className={classes.containerGrid} xs={12} sm={12} md={6}>
+                                <GridItem 
+                                //   className={classes.containerGrid} 
+                                  xs={12} sm={12} md={6}>                                    
                                     <IngelmecItem />
                                     <ColpegasusItem />
                                 </GridItem>
-                                <GridItem className={classes.containerGrid} xs={12} sm={12} md={6}>
+                                <GridItem 
+                                //   className={classes.containerGrid} 
+                                  xs={12} sm={12} md={6}>                                   
                                     <BairesServiciosItem />
                                     <PostaItem />
                                 </GridItem>

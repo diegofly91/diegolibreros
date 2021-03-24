@@ -1,6 +1,7 @@
 import React from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheets } from '@material-ui/core/styles';
+import { resetServerContext } from "react-beautiful-dnd";
 
 export default class MyDocument extends Document {
     render() {
@@ -72,6 +73,8 @@ MyDocument.getInitialProps = async (ctx) => {
         originalRenderPage({
             enhanceApp: (App) => (props) => sheets.collect(<App {...props} />),
         });
+        
+    resetServerContext()
 
     const initialProps = await Document.getInitialProps(ctx);
 
