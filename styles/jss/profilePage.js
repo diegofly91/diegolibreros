@@ -9,6 +9,10 @@ const profilePageStyle = {
     color: "#FFFFFF",
     ...container
   },
+  image:{
+    width: 150,
+    height: 150,
+  },
   profile: {
     textAlign: "center",
     "& img": {

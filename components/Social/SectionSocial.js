@@ -8,6 +8,7 @@ import Button from "../CustomButtons/Button.js";
 
 import { makeStyles } from "@material-ui/core/styles";
 
+import Avatar from '@material-ui/core/Avatar';
 
 import styles from "../../styles/jss/profilePage.js";
 
@@ -24,7 +25,8 @@ export default function SectionSocial(){
               <GridItem xs={12} sm={12} md={6}>
                  <div className={classes.profile}>
                     <div>
-                    <img src={"/DIEGOFLIBREROS.jpeg"} alt="..." className={imageClasses} />
+                    {/* <Avatar src="/DIEGOFLIBREROS.jpeg" className={imageClasses}/>     */}
+                    <img src="/DIEGOFLIBREROS.jpeg" alt="..." className={imageClasses} />
                     </div>
                     <div className={classes.name}>
                     <h3 className={classes.title}>Diego Libreros</h3>
