@@ -7,8 +7,9 @@ import GridItem from "../Grid/GridItem.js";
 import Button from "../CustomButtons/Button.js";
 
 import { makeStyles } from "@material-ui/core/styles";
-
-import Avatar from '@material-ui/core/Avatar';
+import MailIcon from '@material-ui/icons/Mail';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import IconButton from '@material-ui/core/IconButton';
 
 import styles from "../../styles/jss/profilePage.js";
 
@@ -31,51 +32,34 @@ export default function SectionSocial(){
                     <div className={classes.name}>
                     <h3 className={classes.title}>Diego Libreros</h3>
                     <h4>DEVELOPER FULL STACK JS</h4>
-                    <Button 
+                    <IconButton 
                         justIcon 
                         link 
-                        href="https://www.whatsapp.com"
-                        target="_blank"
-                        className={classes.margin5}
+                        href="mailto:diegofernandolibreros@gmail.com"
                     >
-                        <i className={"fab fa-whatsapp"} />
-                    </Button>
-                    <Button 
+                        <MailIcon fontSize='medium'/>
+                    </IconButton>
+                    <IconButton 
                         justIcon 
                         link 
-                        className={classes.margin5}
-                        href="https://www.instagram.com/"
-                        target="_blank"
-                    >
-                        <i className={"fab fa-instagram"} />
-                    </Button>
-                    <Button 
-                        justIcon 
-                        link 
-                        className={classes.margin5}
-                        href="https://www.facebook.com/dflibreros/"
-                        target="_blank"
-                    >
-                        <i className={"fab fa-facebook"} />
-                    </Button>
-                    <Button 
-                        justIcon 
-                        link 
-                        className={classes.margin5}
                         href="https://www.github.com/diegofly91"
                         target="_blank"
                     >
-                        <i className={"fab fa-github"} />
-                    </Button>
+                        <GitHubIcon fontSize='medium'/>
+                    </IconButton>
                     </div>
                 </div>
                 </GridItem>
                 <div className={classes.description}>
                     <p>
+                    Dispuesto     
+                    </p>
+                    <p>
                     Un buscador de soluciones optimizadas. Apasionado por estar en una 
                     fase de implementación de una carrera nueva de un desarrollador web profesional. 
                     Soy una persona ambiciosa, aventurera, incansable y motivada.
                     </p>
+                    
                 </div>
             </GridContainer>
 }    
