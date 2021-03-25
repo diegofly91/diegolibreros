@@ -63,12 +63,12 @@ export default function UTNItem() {
       />  
       <CardMedia
         className={classes.media}
-        image={"/UTN.png"}
+        image="/UTN.png"
         title="Udemy"
       />
       <CardContent className={classes.container}>
         <Typography variant="h5" color="textSecondary" component="h4">
-           Full Stack Developer UTN
+           Dev. Full Stack UTN
         </Typography>
         <IconButton
           className={clsx(classes.expand, {

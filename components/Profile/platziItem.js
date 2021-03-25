@@ -60,7 +60,7 @@ export default function PlatziItem() {
     <Card className={classes.root}>
       <CardMedia
         className={classes.media}
-        image={"platzi.png"}
+        image="platzi.png"
         title="Udemy"
       />
       <CardContent className={classes.container}>

@@ -27,7 +27,7 @@ export default function SectionSocial(){
                  <div className={classes.profile}>
                     <div>
                     {/* <Avatar src="/DIEGOFLIBREROS.jpeg" className={imageClasses}/>     */}
-                    <img src="/DIEGOFLIBREROS.jpeg" alt="..." className={imageClasses} />
+                    <img src="./DIEGOFLIBREROS.jpeg" alt="..." className={imageClasses} />
                     </div>
                     <div className={classes.name}>
                     <h3 className={classes.title}>Diego Libreros</h3>
@@ -52,7 +52,7 @@ export default function SectionSocial(){
                 </GridItem>
                 <div className={classes.description}>
                     <p>
-                    Dispuesto     
+                    Dispuesto a trabajar en equipo, aporta y recibir ideas.    
                     </p>
                     <p>
                     Un buscador de soluciones optimizadas. Apasionado por estar en una 

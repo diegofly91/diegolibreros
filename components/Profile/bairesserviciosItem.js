@@ -64,12 +64,12 @@ export default function BairesServiciosItem() {
       />
       <CardMedia
         className={classes.media}
-        image={"/bairesservicios.png"}
+        image="/bairesservicios.png"
         title="Baireservicios"
       />
       <CardContent className={classes.container}>
         <Typography variant="h5" color="textSecondary" component="h4">
-            Dev. Junior - Dev. Ssr
+            Dev. Full Stack
         </Typography>
         <IconButton
           className={clsx(classes.expand, {

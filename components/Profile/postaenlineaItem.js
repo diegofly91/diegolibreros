@@ -64,12 +64,12 @@ export default function PostaItem() {
       />
       <CardMedia
         className={classes.media}
-        image={"/posta.png"}
+        image="/posta.png"
         title="Baireservicios"
       />
       <CardContent className={classes.container}>
         <Typography variant="h5" color="textSecondary" component="h4">
-             Dev. Full Stack.
+             Dev. Full Stack
         </Typography>
         <IconButton
           className={clsx(classes.expand, {

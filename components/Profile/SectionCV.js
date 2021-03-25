@@ -40,14 +40,14 @@ export default function SectionCV(){
                             tabContent: (
                             <GridContainer justify="center">
                                 <GridItem 
-                                //   className={classes.containerGrid} 
-                                  xs={12} sm={12} md={6}>
+                                  className={classes.containerGrid} 
+                                  xs={12} sm={6} md={5}>
                                     <UnillanosItem />
                                     <UdemyItem />
                                 </GridItem>
                                 <GridItem 
-                                //   className={classes.containerGrid} 
-                                  xs={12} sm={12} md={6}>                                    
+                                  className={classes.containerGrid} 
+                                  xs={12} sm={6} md={5}>                                    
                                     <PlatziItem />
                                     <UTNItem />
                                 </GridItem>
@@ -60,14 +60,14 @@ export default function SectionCV(){
                             tabContent: (
                             <GridContainer justify="center">
                                 <GridItem 
-                                //   className={classes.containerGrid} 
-                                  xs={12} sm={12} md={6}>                                    
+                                  className={classes.containerGrid} 
+                                  xs={12} sm={6} md={5}>                                    
                                     <IngelmecItem />
                                     <ColpegasusItem />
                                 </GridItem>
                                 <GridItem 
-                                //   className={classes.containerGrid} 
-                                  xs={12} sm={12} md={6}>                                   
+                                  className={classes.containerGrid} 
+                                  xs={12} sm={6} md={5}>                                   
                                     <BairesServiciosItem />
                                     <PostaItem />
                                 </GridItem>

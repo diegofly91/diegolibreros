@@ -65,12 +65,12 @@ export default function ColpegasusItem() {
       />
       <CardMedia
         className={classes.media}
-        image={"/colpegasussofw.png"}
+        image="/colpegasussofw.png"
         title="Ingelmec"
       />
       <CardContent className={classes.container}>
         <Typography variant="h5" color="textSecondary" component="h4">
-            Dev. Junior
+            Dev. Full Stack
         </Typography>
         <IconButton
           className={clsx(classes.expand, {
