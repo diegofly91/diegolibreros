@@ -22,7 +22,7 @@ export default function ProfilePage(props) {
   const { ...rest } = props;
   return (
     <div>
-      <Parallax filter responsive image={require("../public/working-on-code.jpg")} >
+      <Parallax filter responsive image={"/working-on-code.jpg"} >
         <div className={classes.containerView}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>

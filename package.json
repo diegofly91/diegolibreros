@@ -4,8 +4,7 @@
   "private": true,
   "homepage": "https://diegofly91.github.io/diegolibreros",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d next build",
+    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
@@ -14,7 +13,6 @@
     "@material-ui/core": "^4.11.2",
     "@material-ui/icons": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.57",
-    "@zeit/next-sass": "1.0.1",
     "classnames": "2.2.6",
     "clsx": "^1.1.1",
     "gh-pages": "^3.1.0",
@@ -22,8 +20,6 @@
     "moment": "^2.29.1",
     "next": "^10.0.0",
     "next-compose-plugins": "2.2.0",
-    "next-images": "1.3.1",
-    "node-sass": "4.14.1",
     "nouislider": "14.4.0",
     "path": "0.12.7",
     "prop-types": "^15.7.2",
@@ -33,10 +29,9 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.0.1",
     "react-slick": "^0.25.2",
-    "react-slick-carousel": "^0.14.9",
     "react-swipeable-views": "0.13.9",
-    "uuid": "3.3.3",
-    "webpack": "4.43.0"
+    "sass": "^1.32.8",
+    "uuid": "3.3.3"
   },
   "devDependencies": {
     "typescript": "3.3.3",

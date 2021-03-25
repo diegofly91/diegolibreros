@@ -10,7 +10,6 @@ import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
 import CardHeader from '@material-ui/core/CardHeader';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import study2 from "../../public/UTN.png";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -64,7 +63,7 @@ export default function UTNItem() {
       />  
       <CardMedia
         className={classes.media}
-        image={study2}
+        image={"/UTN.png"}
         title="Udemy"
       />
       <CardContent className={classes.container}>

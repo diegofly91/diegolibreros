@@ -10,7 +10,6 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import study2 from "../../public/ingelmeclogo.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -63,7 +62,7 @@ export default function IngelmecItem() {
       />
       <CardMedia
         className={classes.media}
-        image={study2}
+        image={"/ingelmeclogo.png"}
         title="Ingelmec"
       />
       <CardContent className={classes.container}>

@@ -10,7 +10,6 @@ import { makeStyles } from "@material-ui/core/styles";
 
 
 import styles from "../../styles/jss/profilePage.js";
-import profile from "../../public/DIEGOFLIBREROS.jpeg";
 
 const useStyles = makeStyles(styles);
 
@@ -25,7 +24,7 @@ export default function SectionSocial(){
               <GridItem xs={12} sm={12} md={6}>
                  <div className={classes.profile}>
                     <div>
-                    <img src={profile} alt="..." className={imageClasses} />
+                    <img src={"/DIEGOFLIBREROS.jpeg"} alt="..." className={imageClasses} />
                     </div>
                     <div className={classes.name}>
                     <h3 className={classes.title}>Diego Libreros</h3>

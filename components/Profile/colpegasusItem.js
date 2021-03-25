@@ -9,7 +9,6 @@ import Collapse from '@material-ui/core/Collapse';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import study2 from "../../public/colpegasussofw.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -66,7 +65,7 @@ export default function ColpegasusItem() {
       />
       <CardMedia
         className={classes.media}
-        image={study2}
+        image={"/colpegasussofw.png"}
         title="Ingelmec"
       />
       <CardContent className={classes.container}>

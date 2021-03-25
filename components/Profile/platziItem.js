@@ -9,7 +9,6 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import study2 from "../../public/platzi.png";
 
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
@@ -61,7 +60,7 @@ export default function PlatziItem() {
     <Card className={classes.root}>
       <CardMedia
         className={classes.media}
-        image={study2}
+        image={"platzi.png"}
         title="Udemy"
       />
       <CardContent className={classes.container}>

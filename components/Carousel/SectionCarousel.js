@@ -8,11 +8,6 @@ import GridContainer from "../Grid/GridContainer.js";
 import GridItem from "../Grid/GridItem.js";
 import Card from "../Card/Card.js";
 
-import image1 from "../../public/ingelmec.png";
-import image2 from "../../public/colpegasus.png";
-import image3 from "../../public/soec.png";
-import image4 from "../../public/postaenlinea.png";
-
 import styles from "../../styles/jss/carouselStyles.js";
 
 
@@ -43,7 +38,7 @@ export default function SectionCarousel() {
             <Card carousel>
               <Slider {...settings}>
                 <div>
-                  <img src={image1} alt="First slide" className="slick-image" />
+                  <img src={"/ingelmec.png"} alt="First slide" className="slick-image" />
                   <div className="slick-caption">
                     <h3 className={classes.titleItem}>
                       Ingelmec
@@ -51,7 +46,7 @@ export default function SectionCarousel() {
                   </div>
                 </div>
                 <div>
-                  <img src={image2} alt="First slide" className="slick-image" />
+                  <img src={"colpegasus.png"} alt="First slide" className="slick-image" />
                   <div className="slick-caption">
                     <h3 className={classes.titleItem}>
                       Colpegasus
@@ -65,13 +60,13 @@ export default function SectionCarousel() {
                     </h3>
                   </div>
                   <img
-                    src={image3}
+                    src={"/soec.png"}
                     alt="Second slide"
                     className="slick-image"
                   />
                 </div>
                 <div>
-                  <img src={image4} alt="Third slide" className="slick-image" />
+                  <img src={"postaenlinea.png"} alt="Third slide" className="slick-image" />
                   <div className="slick-caption">
                     <h3 className={classes.titleItem}>
                       Postaenlinea

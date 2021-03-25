@@ -9,7 +9,6 @@ import Collapse from '@material-ui/core/Collapse';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import study2 from "../../public/bairesservicios.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -65,7 +64,7 @@ export default function BairesServiciosItem() {
       />
       <CardMedia
         className={classes.media}
-        image={study2}
+        image={"/bairesservicios.png"}
         title="Baireservicios"
       />
       <CardContent className={classes.container}>

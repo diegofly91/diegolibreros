@@ -10,7 +10,6 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import study1 from "../../public/unillanos.png";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -64,7 +63,7 @@ export default function UnillanosItem() {
       />
       <CardMedia
         className={classes.media}
-        image={study1}
+        image={"/unillanos.png"}
         title="Paella dish"
       />
       <CardContent className={classes.container}>
