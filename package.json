@@ -7,6 +7,7 @@
     "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true",
     "dev": "next dev",
     "build": "next build",
+    "format": "prettier --write \"src/pages/**/*.js\" \"src/components/**/*.js\" \"src/config/**/*.js\" \"src/mutations/**/*.js\" \"public/**/*.js\" \"src/querys/**/*.js\" \"src/styles/**/*.js\"",
     "start": "next start"
   },
   "dependencies": {
