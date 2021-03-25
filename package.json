@@ -5,7 +5,7 @@
   "homepage": "https://diegofly91.github.io/diegolibreros",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d next build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
