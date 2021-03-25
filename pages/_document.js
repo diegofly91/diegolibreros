@@ -11,11 +11,11 @@ export default class MyDocument extends Document {
                     <meta charSet="utf-8" />
                     {/* <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" /> */}
                     <meta name="theme-color" content="#000000" />
-                    <link rel="shortcut icon" href={"/favicon.png"} />
+                    <link rel="shortcut icon" href="favicon.png" />
                     <link
                         rel="apple-touch-icon"
                         sizes="76x76"
-                        href={"/apple-icon.png"}
+                        href="/apple-icon.png"
                     />
                     <link
                         rel="stylesheet"
