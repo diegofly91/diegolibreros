@@ -63,7 +63,7 @@ export default function UTNItem() {
       />  
       <CardMedia
         className={classes.media}
-        image="/UTN.png"
+        image="UTN.png"
         title="Udemy"
       />
       <CardContent className={classes.container}>

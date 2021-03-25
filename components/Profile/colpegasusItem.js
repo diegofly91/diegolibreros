@@ -65,7 +65,7 @@ export default function ColpegasusItem() {
       />
       <CardMedia
         className={classes.media}
-        image="/colpegasussofw.png"
+        image="colpegasussofw.png"
         title="Ingelmec"
       />
       <CardContent className={classes.container}>

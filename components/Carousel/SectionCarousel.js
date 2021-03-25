@@ -38,7 +38,7 @@ export default function SectionCarousel() {
             <Card carousel>
               <Slider {...settings}>
                 <div>
-                  <img src={"/ingelmec.png"} alt="First slide" className="slick-image" />
+                  <img src="ingelmec.png" alt="First slide" className="slick-image" />
                   <div className="slick-caption">
                     <h3 className={classes.titleItem}>
                       Ingelmec
@@ -46,7 +46,7 @@ export default function SectionCarousel() {
                   </div>
                 </div>
                 <div>
-                  <img src={"colpegasus.png"} alt="First slide" className="slick-image" />
+                  <img src="colpegasus.png" alt="First slide" className="slick-image" />
                   <div className="slick-caption">
                     <h3 className={classes.titleItem}>
                       Colpegasus
@@ -60,13 +60,13 @@ export default function SectionCarousel() {
                     </h3>
                   </div>
                   <img
-                    src={"/soec.png"}
+                    src="soec.png"
                     alt="Second slide"
                     className="slick-image"
                   />
                 </div>
                 <div>
-                  <img src={"postaenlinea.png"} alt="Third slide" className="slick-image" />
+                  <img src="postaenlinea.png" alt="Third slide" className="slick-image" />
                   <div className="slick-caption">
                     <h3 className={classes.titleItem}>
                       Postaenlinea

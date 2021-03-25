@@ -63,7 +63,7 @@ export default function UnillanosItem() {
       />
       <CardMedia
         className={classes.media}
-        image="/unillanos.png"
+        image='unillanos.png'
         title="Paella dish"
       />
       <CardContent className={classes.container}>

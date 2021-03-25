@@ -62,7 +62,7 @@ export default function IngelmecItem() {
       />
       <CardMedia
         className={classes.media}
-        image="/ingelmeclogo.png"
+        image="ingelmeclogo.png"
         title="Ingelmec"
       />
       <CardContent className={classes.container}>

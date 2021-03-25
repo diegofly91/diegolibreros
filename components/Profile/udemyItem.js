@@ -60,7 +60,7 @@ export default function UdemyItem() {
     <Card className={classes.root}>
       <CardMedia
         className={classes.media}
-        image="/udemy.jpeg"
+        image="udemy.jpeg"
         title="Udemy"
       />
       <CardContent className={classes.container}>
