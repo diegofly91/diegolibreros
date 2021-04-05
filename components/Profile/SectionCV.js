@@ -11,6 +11,7 @@ import DevicesIcon from '@material-ui/icons/Devices';
 import WorkOutlineIcon from '@material-ui/icons/WorkOutline';
 import SchoolIcon from '@material-ui/icons/School';
 import Favorite from "@material-ui/icons/Favorite";
+import AppsIcon from '@material-ui/icons/Apps';
 import { makeStyles } from "@material-ui/core/styles";
 
 import UnillanosItem from './unillanosItem'
@@ -21,6 +22,7 @@ import IngelmecItem from './ingelmecItem';
 import ColpegasusItem from './colpegasusItem';
 import BairesServiciosItem from './bairesserviciosItem';
 import PostaItem from './postaenlineaItem';
+import ImageGridList from './GridSkill';
 
 import styles from "../../styles/jss/profilePage.js";
 
@@ -71,6 +73,23 @@ export default function SectionCV(){
                                     <BairesServiciosItem />
                                     <PostaItem />
                                 </GridItem>
+                            </GridContainer>
+                            )
+                        },
+                        {
+                            tabButton: "Habilidades",
+                            tabIcon: AppsIcon,
+                            tabContent: (
+                            <GridContainer justify="center">
+                                <GridItem 
+                                  className={classes.containerGrid} 
+                                  xs={12} sm={12} md={12}>
+                                    <ImageGridList />
+                                </GridItem>
+                                {/* <GridItem 
+                                  className={classes.containerGrid} 
+                                  xs={12} sm={6} md={5}>
+                                </GridItem> */}
                             </GridContainer>
                             )
                         },
