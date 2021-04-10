@@ -37,7 +37,7 @@ export default function SectionSocial(){
                         link 
                         href="mailto:diegofernandolibreros@gmail.com"
                     >
-                        <MailIcon fontSize='medium'/>
+                        <MailIcon fontSize='inherit'/>
                     </IconButton>
                     <IconButton 
                         justIcon 
@@ -45,7 +45,7 @@ export default function SectionSocial(){
                         href="https://www.github.com/diegofly91"
                         target="_blank"
                     >
-                        <GitHubIcon fontSize='medium'/>
+                        <GitHubIcon fontSize='inherit'/>
                     </IconButton>
                     </div>
                 </div>

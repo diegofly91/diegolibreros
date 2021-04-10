@@ -7,10 +7,6 @@ import Grid from "@material-ui/core/Grid";
 
 const styles = {
   grid: {
-    // display: 'display',
-    // justifyCenter: 'center',
-    // alignItems: 'center',
-    // flexWrap: 'wrap',
     position: "relative",
     width: "100%",
     minHeight: "1px",

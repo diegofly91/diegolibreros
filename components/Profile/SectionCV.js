@@ -30,71 +30,67 @@ const useStyles = makeStyles(styles);
 
 export default function SectionCV(){
     const classes = useStyles();
-    return<GridContainer justify="center" pad>
-                <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
-                <NavPills
-                    alignCenter
-                    color="primary"
-                    tabs={[
-                        {
-                            tabButton: "Estudios",
-                            tabIcon: SchoolIcon,
-                            tabContent: (
-                            <GridContainer justify="center">
-                                <GridItem 
-                                  className={classes.containerGrid} 
-                                  xs={12} sm={6} md={5}>
-                                    <UnillanosItem />
-                                    <UdemyItem />
-                                </GridItem>
-                                <GridItem 
-                                  className={classes.containerGrid} 
-                                  xs={12} sm={6} md={5}>                                    
-                                    <PlatziItem />
-                                    <UTNItem />
-                                </GridItem>
-                            </GridContainer>
-                            )
-                        },
-                        {
-                            tabButton: "Portafolio",
-                            tabIcon: WorkOutlineIcon,
-                            tabContent: (
-                            <GridContainer justify="center">
-                                <GridItem 
-                                  className={classes.containerGrid} 
-                                  xs={12} sm={6} md={5}>                                    
-                                    <IngelmecItem />
-                                    <ColpegasusItem />
-                                </GridItem>
-                                <GridItem 
-                                  className={classes.containerGrid} 
-                                  xs={12} sm={6} md={5}>                                   
-                                    <BairesServiciosItem />
-                                    <PostaItem />
-                                </GridItem>
-                            </GridContainer>
-                            )
-                        },
-                        {
-                            tabButton: "Habilidades",
-                            tabIcon: AppsIcon,
-                            tabContent: (
-                            <GridContainer justify="center">
-                                <GridItem 
-                                  className={classes.containerGrid} 
-                                  xs={12} sm={12} md={12}>
-                                    <ImageGridList />
-                                </GridItem>
-                                {/* <GridItem 
-                                  className={classes.containerGrid} 
-                                  xs={12} sm={6} md={5}>
-                                </GridItem> */}
-                            </GridContainer>
-                            )
-                        },
-                    ]}
-                />
+    return<GridContainer justify="center"  pad>
+                <GridItem xs={12} sm={12} md={8} >
+                    <NavPills
+                        alignCenter
+                        color="primary"
+                        tabs={[
+                            {
+                                tabButton: "Estudios",
+                                tabIcon: SchoolIcon,
+                                tabContent: (
+                                <GridContainer justify="center">
+                                    <GridItem 
+                                      className={classes.containerGrid} 
+                                      xs={12} sm={6} md={5}>
+                                        <UnillanosItem />
+                                        <UdemyItem />
+                                    </GridItem>
+                                    <GridItem 
+                                      className={classes.containerGrid} 
+                                      xs={12} sm={6} md={5}>                                    
+                                        <PlatziItem />
+                                        <UTNItem />
+                                    </GridItem>
+                                </GridContainer>
+                                )
+                            },
+                            {
+                                tabButton: "Portafolio",
+                                tabIcon: WorkOutlineIcon,
+                                tabContent: (
+                                <GridContainer justify="center">
+                                    <GridItem 
+                                      className={classes.containerGrid} 
+                                      xs={12} sm={6} md={5}>                                    
+                                        <IngelmecItem />
+                                        <ColpegasusItem />
+                                    </GridItem>
+                                    <GridItem 
+                                      className={classes.containerGrid} 
+                                      xs={12} sm={6} md={5}>                                   
+                                        <BairesServiciosItem />
+                                        <PostaItem />
+                                    </GridItem>
+                                </GridContainer>
+                                )
+                            },
+                            {
+                                tabButton: "Habilidades",
+                                tabIcon: AppsIcon,
+                                tabContent: (
+                                <GridContainer justify="center">
+                                    <GridItem 
+                                      className={classes.containerGrid} 
+                                      xs={12} sm={12} md={12}>
+                                        <ImageGridList />
+                                    </GridItem>
+                                </GridContainer>
+                                )
+                            },
+                        ]}
+                    />
                 </GridItem>
             </GridContainer>      
 }
