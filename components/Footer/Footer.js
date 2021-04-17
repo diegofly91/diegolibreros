@@ -31,44 +31,6 @@ export default function Footer(props) {
     <footer className={footerClasses}>
       <div className={classes.container}>
         <div className={classes.left}>
-          {/* <List className={classes.list}>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Diego F libreros B.
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/presentation?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                About us
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="http://blog.creative-tim.com/?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Blog
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/license?ref=njsmk-footer"
-                className={classes.block}
-                target="_blank"
-              >
-                Licenses
-              </a>
-            </ListItem>
-          </List> */}
         </div>
         <div className={classes.right}>
           &copy; 2021 , creado {" "}

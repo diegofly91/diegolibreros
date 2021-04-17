@@ -64,7 +64,7 @@ export default function BairesServiciosItem() {
       />
       <CardMedia
         className={classes.media}
-        image="/bairesservicios.png"
+        image="bairesservicios.png"
         title="Baireservicios"
       />
       <CardContent className={classes.container}>
