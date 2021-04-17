@@ -9,7 +9,6 @@ npm run dev
 #deploy a gitpage
 npm run deploy
 ```
-In localhost commit /*assetPrefix = '/gitpagename/'*/ in next.config.js
 to add .env if production 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

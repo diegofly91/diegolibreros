@@ -41,7 +41,7 @@ export default function ProfilePage(props) {
              <SectionSocial />
              <SectionCV /> 
              <SectionCarousel />
-             {/* <Prueba /> */}
+             <Prueba /> 
           </div>
         </div>
       </div>
