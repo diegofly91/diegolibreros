@@ -4,14 +4,15 @@ import classNames from "classnames";
 // @material-ui/core components
 import GridContainer from "../Grid/GridContainer.js";
 import GridItem from "../Grid/GridItem.js";
-import Button from "../CustomButtons/Button.js";
 
 import { makeStyles } from "@material-ui/core/styles";
 import MailIcon from '@material-ui/icons/Mail';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import IconButton from '@material-ui/core/IconButton';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 import styles from "../../styles/jss/profilePage.js";
+import LinkRedes from './LinkRedes';
 
 const useStyles = makeStyles(styles);
 
@@ -25,28 +26,13 @@ export default function SectionSocial(){
     return <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={6}>
                  <div className={classes.profile}>
-                    <div>
-                    {/* <Avatar src="/DIEGOFLIBREROS.jpeg" className={imageClasses}/>     */}
-                    <img src="./DIEGOFLIBREROS.jpeg" alt="..." className={imageClasses} />
-                    </div>
-                    <div className={classes.name}>
-                    <h3 className={classes.title}>Diego Libreros</h3>
-                    <h4>DEVELOPER FULL STACK JS</h4>
-                    <IconButton 
-                        justIcon 
-                        link 
-                        href="mailto:diegofernandolibreros@gmail.com"
-                    >
-                        <MailIcon fontSize='inherit'/>
-                    </IconButton>
-                    <IconButton 
-                        justIcon 
-                        link 
-                        href="https://www.github.com/diegofly91"
-                        target="_blank"
-                    >
-                        <GitHubIcon fontSize='inherit'/>
-                    </IconButton>
+                        <div>
+                        <img src="./DIEGOFLIBREROS.jpeg" alt="..." className={imageClasses} />
+                        </div>
+                        <div className={classes.name}>
+                        <h3 className={classes.title}>Diego Libreros</h3>
+                        <h4>DEVELOPER FULL STACK JS</h4>
+                        <LinkRedes />
                     </div>
                 </div>
                 </GridItem>

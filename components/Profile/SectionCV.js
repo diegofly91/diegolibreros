@@ -7,10 +7,8 @@ import GridItem from "../Grid/GridItem.js";
 import NavPills from "../NavPills/NavPills.js";
 
 // @material-ui/icons
-import DevicesIcon from '@material-ui/icons/Devices';
 import WorkOutlineIcon from '@material-ui/icons/WorkOutline';
 import SchoolIcon from '@material-ui/icons/School';
-import Favorite from "@material-ui/icons/Favorite";
 import AppsIcon from '@material-ui/icons/Apps';
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -37,26 +35,6 @@ export default function SectionCV(){
                         color="primary"
                         tabs={[
                             {
-                                tabButton: "Estudios",
-                                tabIcon: SchoolIcon,
-                                tabContent: (
-                                <GridContainer justify="center">
-                                    <GridItem 
-                                      className={classes.containerGrid} 
-                                      xs={12} sm={6} md={5}>
-                                        <UnillanosItem />
-                                        <UdemyItem />
-                                    </GridItem>
-                                    <GridItem 
-                                      className={classes.containerGrid} 
-                                      xs={12} sm={6} md={5}>                                    
-                                        <PlatziItem />
-                                        <UTNItem />
-                                    </GridItem>
-                                </GridContainer>
-                                )
-                            },
-                            {
                                 tabButton: "Portafolio",
                                 tabIcon: WorkOutlineIcon,
                                 tabContent: (
@@ -72,6 +50,26 @@ export default function SectionCV(){
                                       xs={12} sm={6} md={5}>                                   
                                         <BairesServiciosItem />
                                         <PostaItem />
+                                    </GridItem>
+                                </GridContainer>
+                                )
+                            },
+                            {
+                                tabButton: "Estudios",
+                                tabIcon: SchoolIcon,
+                                tabContent: (
+                                <GridContainer justify="center">
+                                    <GridItem 
+                                      className={classes.containerGrid} 
+                                      xs={12} sm={6} md={5}>
+                                        <UnillanosItem />
+                                        <UdemyItem />
+                                    </GridItem>
+                                    <GridItem 
+                                      className={classes.containerGrid} 
+                                      xs={12} sm={6} md={5}>                                    
+                                        <PlatziItem />
+                                        <UTNItem />
                                     </GridItem>
                                 </GridContainer>
                                 )

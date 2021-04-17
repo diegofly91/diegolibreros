@@ -35,7 +35,8 @@ import {
       overflow: "visible !important"
     },
     horizontalDisplay: {
-      display: "block"
+      display: "block",
+      paddingBottom: '20px'
     },
     pills: {
       float: "left",

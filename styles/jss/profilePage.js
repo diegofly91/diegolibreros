@@ -85,7 +85,8 @@ const profilePageStyle = {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'center',
-    alignItems: 'flex-start'
+    alignItems: 'flex-start',
+    paddingBottom: '20px'
   }
 };
 
