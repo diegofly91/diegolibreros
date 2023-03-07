@@ -78,6 +78,18 @@ const tileData  = [
      cols: 8,
   },
   {
+    img: 'azure.png',
+    title: 'AZURE',
+    author: 'author',
+    cols: 8,
+ },
+ {
+  img: 'node.png',
+  title: 'NODE',
+  author: 'author',
+  cols: 8,
+},
+  {
       img: 'nestjs.png',
       title: 'Nest js',
       author: 'author',
@@ -124,5 +136,11 @@ const tileData  = [
     title: 'TypeScript',
     author: 'author',
     cols: 6,
+  },
+  {
+    img: 'graphql.png',
+    title: 'Graphql',
+    author: 'author',
+    cols: 8,
   }
 ];

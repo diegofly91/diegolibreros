@@ -38,6 +38,14 @@ export default function SectionCarousel() {
             <Card carousel>
               <Slider {...settings}>
                 <div>
+                  <img src="api-gql.png" alt="Third slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h3 className={classes.titleItem}>
+                      Api Graphql
+                    </h3>
+                  </div>
+                </div>
+                <div>
                   <img src="ingelmec.png" alt="First slide" className="slick-image" />
                   <div className="slick-caption">
                     <h3 className={classes.titleItem}>

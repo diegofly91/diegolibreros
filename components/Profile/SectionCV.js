@@ -16,11 +16,10 @@ import UnillanosItem from './unillanosItem'
 import UdemyItem from './udemyItem';
 import PlatziItem from './platziItem';
 import UTNItem from './utnItem';
-import IngelmecItem from './ingelmecItem';
-import ColpegasusItem from './colpegasusItem';
-import BairesServiciosItem from './bairesserviciosItem';
-import PostaItem from './postaenlineaItem';
 import ImageGridList from './GridSkill';
+
+import ItemCard from './ItemCard.js';
+import experiences from "../../constants/experience.js";
 
 import styles from "../../styles/jss/profilePage.js";
 
@@ -35,27 +34,18 @@ export default function SectionCV(){
                         color="primary"
                         tabs={[
                             {
-                                tabButton: "Portafolio",
+                                tabButton: "Briefcase",
                                 tabIcon: WorkOutlineIcon,
                                 tabContent: (
                                 <GridContainer justify="center">
-                                    <GridItem 
-                                      className={classes.containerGrid} 
-                                      xs={12} sm={6} md={5}>                                    
-                                        <IngelmecItem />
-                                        <ColpegasusItem />
-                                    </GridItem>
-                                    <GridItem 
-                                      className={classes.containerGrid} 
-                                      xs={12} sm={6} md={5}>                                   
-                                        <BairesServiciosItem />
-                                        <PostaItem />
-                                    </GridItem>
+                                    {experiences.map((experience)  => {
+                                        return  <ItemCard data={experience} />;
+                                    })}
                                 </GridContainer>
                                 )
                             },
                             {
-                                tabButton: "Estudios",
+                                tabButton: "Studies",
                                 tabIcon: SchoolIcon,
                                 tabContent: (
                                 <GridContainer justify="center">
@@ -75,7 +65,7 @@ export default function SectionCV(){
                                 )
                             },
                             {
-                                tabButton: "Habilidades",
+                                tabButton: "Skills",
                                 tabIcon: AppsIcon,
                                 tabContent: (
                                 <GridContainer justify="center">

@@ -8,8 +8,9 @@ import CardContent from '@material-ui/core/CardContent';
 import Collapse from '@material-ui/core/Collapse';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
+import { red } from '@material-ui/core/colors';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-
+import LanguageIcon from '@material-ui/icons/Language';
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
@@ -22,8 +23,6 @@ const useStyles = makeStyles((theme) => ({
   media: {
     height: 0,
     backgroundSize: 'contain',
-    backgroundColor: 'rgba(6,82,221,1)',
-    padding: 10,
     paddingTop: '56.25%', // 16:9
   },
   title2: {
@@ -39,17 +38,16 @@ const useStyles = makeStyles((theme) => ({
       duration: theme.transitions.duration.shortest,
     }),
   },
-  text:{
-    fontSize: 15,  
-    textAlign: 'left',
-    textAlignLast: 'center'
-  },
   expandOpen: {
     transform: 'rotate(180deg)',
   },
+  avatar: {
+    backgroundColor: red[500],
+  },
 }));
 
-export default function ColpegasusItem() {
+export default function ItemCard(props) {
+  const { title, url, date, position, functions, image } = props.data;  
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -60,17 +58,27 @@ export default function ColpegasusItem() {
   return (
     <Card className={classes.root}>
       <CardHeader
-        title="web.colpegasus.com"
-        subheader="abril - noviembre 2018"
+        title={title}
+        action={
+         <IconButton 
+            justIcon 
+            link  
+            target='_blank'
+            href={url}
+        >
+            <LanguageIcon />
+        </IconButton>
+        }
+        subheader={`${date}`}
       />
       <CardMedia
         className={classes.media}
-        image="colpegasussofw.png"
-        title="Ingelmec"
+        image={image}
+        title={title}
       />
       <CardContent className={classes.container}>
         <Typography variant="h5" color="textSecondary" component="h4">
-            Dev. Full Stack
+            {position}
         </Typography>
         <IconButton
           className={clsx(classes.expand, {
@@ -84,25 +92,13 @@ export default function ColpegasusItem() {
         </IconButton>
       </CardContent>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
+        <CardContent pt="1">
           <Typography variant="h6" color="textPrimary" component="h5">
-             Funciones:
+           Functions:
           </Typography>
-          <Typography paragraph className={classes.text}>
-            - Desarrollo de extenciones para Google, para uso interno "control de soporte colegios".
-          </Typography>
-          <Typography paragraph className={classes.text}>
-            - Actualización CRM de empresas de version en Flash a 
-            PHP 7.0 PDO, HTML5, CSS3, Handlebars, DataTable, Mysql, entre mas otras tecnologias.
-          </Typography>
-          <Typography paragraph className={classes.text}>
-            - Soporte y desarrollo de modulos de la Plataforma virtual de colegios.
-              PHP 5.4, JQuery, Handelbars, Datatable, FullCalendar, Mysql.
-          </Typography>
-          <Typography paragraph className={classes.text}>
-            - Desarrollo de web ayuda.colpegasus.com, para los usuarios de la 
-              plataforma virtual, Angular 6, Fetch API.
-          </Typography>
+          {functions?.map((item) => {
+            return <Typography paragraph> - {item} </Typography>
+          } )}
         </CardContent>
       </Collapse>
     </Card>

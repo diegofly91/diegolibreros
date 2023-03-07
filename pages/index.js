@@ -26,10 +26,10 @@ export default function ProfilePage(props) {
         <div className={classes.containerView}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.titleView}>Todo empieza con una idea.</h1>
+                <h1 className={classes.titleView}>It all starts with an idea.</h1>
                 <h4>
-                  Hasta donde lleges depende de tu constancia y dedicación que coloques en tus proyectos,
-                  trazando metas a corto y largo plazo.
+                  How far you get depends on your perseverance and dedication that you put into your projects,
+                  Setting short and long term goals.
                 </h4>
               </GridItem>
             </GridContainer>
@@ -41,7 +41,7 @@ export default function ProfilePage(props) {
              <SectionSocial />
              <SectionCV /> 
              <SectionCarousel />
-             <Prueba /> 
+             {/* <Prueba /> */} 
           </div>
         </div>
       </div>

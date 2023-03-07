@@ -31,19 +31,19 @@ export default function SectionSocial(){
                         </div>
                         <div className={classes.name}>
                         <h3 className={classes.title}>Diego Libreros</h3>
-                        <h4>DEVELOPER FULL STACK JS</h4>
+                        <h4>Software developer</h4>
                         <LinkRedes />
                     </div>
                 </div>
                 </GridItem>
                 <div className={classes.description}>
                     <p>
-                    Dispuesto a trabajar en equipo, aporta y recibir ideas.    
+                    Willing to work in a team, contributes and receives ideas.
                     </p>
                     <p>
-                    Un buscador de soluciones optimizadas. Apasionado por estar en una 
-                    fase de implementación de una carrera nueva de un desarrollador web profesional. 
-                    Soy una persona ambiciosa, aventurera, incansable y motivada.
+                    A search engine for optimized solutions. Passionate about being in a
+                    implementation phase of a new career of a professional web developer.
+                    I am an ambitious, adventurous, tireless and motivated person.
                     </p>
                     
                 </div>
