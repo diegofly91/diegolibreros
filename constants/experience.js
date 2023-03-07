@@ -52,7 +52,7 @@ export default [
     {
         title: 'Col Pegasus Software',
         url: 'https://web.colpegasus.com',
-        image: 'colpegasussofw.png',
+        image: 'colpegasussofw2.png',
         position: 'Dev. Full Stack',
         date: 'april 2018 - november 2018',
         functions: [
