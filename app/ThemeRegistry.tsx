@@ -13,7 +13,7 @@ export default function ThemeRegistry({ children }) {
         const cache = createCache({ key: 'mui' });
         cache.compat = true;
         const prevInsert = cache.insert;
-        let inserted = [];
+        let inserted: string[] = [];
         cache.insert = (...args) => {
             const serialized = args[1];
             if (cache.inserted[serialized.name] === undefined) {

@@ -124,6 +124,7 @@ export default function Projects() {
                                     <Stack direction="row" spacing={2} sx={{ mt: 'auto' }}>
                                         {project.demo !== '#' && (
                                             <Button
+                                                component="a"
                                                 variant="outlined"
                                                 size="small"
                                                 startIcon={<LaunchIcon />}
@@ -142,6 +143,7 @@ export default function Projects() {
                                         )}
                                         {project.github !== '#' && (
                                             <Button
+                                                component="a"
                                                 variant="outlined"
                                                 size="small"
                                                 startIcon={<GitHubIcon />}
