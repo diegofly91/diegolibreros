@@ -1,20 +1,19 @@
 import React from "react";
-import { Droppable } from "react-beautiful-dnd";
-import RootRef from "@material-ui/core/RootRef";
-import List from "@material-ui/core/List";
+import { Droppable } from "@hello-pangea/dnd";
+import List from "@mui/material/List";
 import ListItemCustom from "./listItemCustom";
-import { Typography } from "@material-ui/core";
-import { makeStyles } from '@material-ui/core/styles';
+import { Typography } from "@mui/material";
+import { makeStyles } from '../../styles/makeStyles';
 import uuid from "uuid/v4";
 
 const useStyles = makeStyles((theme) => ({
   title: {
-   textTransform: 'uppercase',
-   textAlign: 'center',
-   position: 'relative',
-   width: '100%'
+    textTransform: 'uppercase',
+    textAlign: 'center',
+    position: 'relative',
+    width: '100%'
   },
-  container:{
+  container: {
     backgroundColor: "white",
     margin: 10,
     padding: 20,
@@ -35,14 +34,12 @@ const Column = ({ column }) => {
       </Typography>
       <Droppable droppableId={column.id} key={column.id}>
         {(provided) => (
-          <RootRef rootRef={provided.innerRef}>
-            <List  key={column.id}>
-              {column.list.map((itemObject, index) => {
-                return <ListItemCustom index={index} key={uuid()} itemObject={itemObject} />;
-              })}
-              {provided.placeholder}
-            </List>
-          </RootRef>
+          <List ref={provided.innerRef} key={column.id}>
+            {column.list.map((itemObject, index) => {
+              return <ListItemCustom index={index} key={uuid()} itemObject={itemObject} />;
+            })}
+            {provided.placeholder}
+          </List>
         )}
       </Droppable>
     </div>

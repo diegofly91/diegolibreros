@@ -1,0 +1,1958 @@
+
+> diegolibreros@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.12
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.5:3000
+
+ ✓ Starting...
+ ✓ Ready in 997ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ○ Compiling / ...
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 17, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:17:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+17 | @import "core/variables";
+
+styles/scss/nextjs-material-kit.scss 18:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 18, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:18:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+18 | @import "core/mixins";
+
+styles/scss/nextjs-material-kit.scss 19:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 21, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:21:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+21 | @import "core/misc";
+
+styles/scss/nextjs-material-kit.scss 22:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 22, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:22:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+22 | @import "core/page-transition";
+
+styles/scss/nextjs-material-kit.scss 23:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 22, column 34 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_bootstrap-material-design.scss:22:34:
+Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(75, 100)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+22 | $bmd-bmd-label-static-size-ratio: 75 / 100 !default;
+
+styles/scss/core/variables/_bootstrap-material-design.scss 23:35  @import
+styles/scss/core/_variables.scss 17:9                             @import
+styles/scss/nextjs-material-kit.scss 18:9                         root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 23, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:23:8:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+23 | $grays: map-merge(
+  (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900
+  ),
+  $grays
+);
+
+styles/scss/core/variables/_variables.scss 24:9  @import
+styles/scss/core/_variables.scss 15:9            @import
+styles/scss/nextjs-material-kit.scss 18:9        root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 27, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:27:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+27 | @import "plugins/plugin-nouislider";
+
+styles/scss/nextjs-material-kit.scss 28:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 30, column 25 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_bootstrap-material-design-base.scss:30:25:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+30 | $mdb-text-color-primary: unquote("rgba(#{$rgb-black}, 0.87)") !default;
+
+styles/scss/core/variables/_bootstrap-material-design-base.scss 31:26  @import
+styles/scss/core/_variables.scss 4:9                                   @import
+styles/scss/nextjs-material-kit.scss 18:9                              root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 34, column 18 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_bootstrap-material-design-base.scss:34:18:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+34 | $mdb-label-color: unquote("rgba(#{$rgb-black}, 0.26)") !default;
+
+styles/scss/core/variables/_bootstrap-material-design-base.scss 35:19  @import
+styles/scss/core/_variables.scss 4:9                                   @import
+styles/scss/nextjs-material-kit.scss 18:9                              root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 35, column 31 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_bootstrap-material-design-base.scss:35:31:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+35 | $mdb-label-color-toggle-focus: unquote("rgba(#{$rgb-black}, .54)") !default;
+
+styles/scss/core/variables/_bootstrap-material-design-base.scss 36:32  @import
+styles/scss/core/_variables.scss 4:9                                   @import
+styles/scss/nextjs-material-kit.scss 18:9                              root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 50, column 9 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:50:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+50 | $colors: map-merge(
+  (
+    "blue": $blue,
+    "indigo": $indigo,
+    "purple": $purple,
+    "pink": $pink,
+    "red": $red,
+    "orange": $orange,
+    "yellow": $yellow,
+    "green": $green,
+    "teal": $teal,
+    "cyan": $cyan,
+    "white": $white,
+    "gray": $gray-600,
+    "gray-dark": $gray-800
+  ),
+  $colors
+);
+
+styles/scss/core/variables/_variables.scss 51:10  @import
+styles/scss/core/_variables.scss 15:9             @import
+styles/scss/nextjs-material-kit.scss 18:9         root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 86, column 15 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_functions.scss:86:15:
+The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($level > 0): #000; else: #fff)
+
+More info: https://sass-lang.com/d/if-function
+
+86 |   $color-base: if($level > 0, #000, #fff);
+
+styles/scss/core/variables/_functions.scss 87:16  @import
+styles/scss/core/_variables.scss 14:9             @import
+styles/scss/nextjs-material-kit.scss 18:9         root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 172, column 19 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:172:19:
+darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -27.7173913043%)
+color.adjust($color, $lightness: -15%)
+
+More info: https://sass-lang.com/d/color-functions
+
+172 | $link-hover-color: darken($link-color, 15%) !default;
+
+styles/scss/core/variables/_variables.scss 173:20  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 271, column 26 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:271:26:
+Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacer, 2) or calc($spacer / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+271 | $headings-margin-bottom: ($spacer / 2) !default;
+
+styles/scss/core/variables/_variables.scss 272:27  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 335, column 26 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:335:26:
+lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 8.7729357798%)
+color.adjust($color, $lightness: 7.5%)
+
+More info: https://sass-lang.com/d/color-functions
+
+335 | $table-dark-border-color: lighten($gray-900, 7.5%) !default;
+
+styles/scss/core/variables/_variables.scss 336:27  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 424, column 27 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:424:27:
+lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 54.4871794872%)
+color.adjust($color, $lightness: 25%)
+
+More info: https://sass-lang.com/d/color-functions
+
+424 | $input-focus-border-color: lighten($component-active-bg, 25%) !default;
+
+styles/scss/core/variables/_variables.scss 425:28  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 489, column 37 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:489:37:
+lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 76.2820512821%)
+color.adjust($color, $lightness: 35%)
+
+More info: https://sass-lang.com/d/color-functions
+
+489 | $custom-control-indicator-active-bg: lighten(
+  $component-active-bg,
+  35%
+) !default;
+
+styles/scss/core/variables/_variables.scss 490:38  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 588, column 28 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:588:28:
+darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -34.4594594595%)
+color.adjust($color, $lightness: -5%)
+
+More info: https://sass-lang.com/d/color-functions
+
+588 | $dropdown-link-hover-color: darken($gray-900, 5%) !default;
+
+styles/scss/core/variables/_variables.scss 589:29  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 634, column 20 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:634:20:
+Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacer, 2) or calc($spacer / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+634 | $navbar-padding-y: ($spacer / 2) !default;
+
+styles/scss/core/variables/_variables.scss 635:21  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 645, column 25 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:645:25:
+Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($nav-link-height - $navbar-brand-height, 2) or calc(($nav-link-height - $navbar-brand-height) / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+645 | $navbar-brand-padding-y: ($nav-link-height - $navbar-brand-height) / 2 !default;
+
+styles/scss/core/variables/_variables.scss 646:26  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 723, column 21 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:723:21:
+Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($grid-gutter-width, 2) or calc($grid-gutter-width / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+723 | $card-group-margin: ($grid-gutter-width / 2) !default;
+
+styles/scss/core/variables/_variables.scss 724:22  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+40 repetitive deprecation warnings omitted.
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | };
+ ⨯ Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | };
+ ⨯ Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | }; {
+  page: '/'
+}
+Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | };
+ ⨯ Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | };
+ ⨯ Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | }; {
+  page: '/'
+}
+Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | };
+ ⨯ Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | };
+ ⨯ Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | }; {
+  page: '/'
+}
+Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | };
+ ⨯ Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | };
+ ⨯ Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | }; {
+  page: '/'
+}
+Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | };
+ ⨯ Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | };
+ ⨯ Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | }; {
+  page: '/'
+}
+ ⚠ ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 17, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:17:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+17 | @import "core/variables";
+
+styles/scss/nextjs-material-kit.scss 18:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 18, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:18:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+18 | @import "core/mixins";
+
+styles/scss/nextjs-material-kit.scss 19:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 21, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:21:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+21 | @import "core/misc";
+
+styles/scss/nextjs-material-kit.scss 22:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 22, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:22:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+22 | @import "core/page-transition";
+
+styles/scss/nextjs-material-kit.scss 23:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 22, column 34 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_bootstrap-material-design.scss:22:34:
+Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(75, 100)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+22 | $bmd-bmd-label-static-size-ratio: 75 / 100 !default;
+
+styles/scss/core/variables/_bootstrap-material-design.scss 23:35  @import
+styles/scss/core/_variables.scss 17:9                             @import
+styles/scss/nextjs-material-kit.scss 18:9                         root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 23, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:23:8:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+23 | $grays: map-merge(
+  (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900
+  ),
+  $grays
+);
+
+styles/scss/core/variables/_variables.scss 24:9  @import
+styles/scss/core/_variables.scss 15:9            @import
+styles/scss/nextjs-material-kit.scss 18:9        root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 27, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:27:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+27 | @import "plugins/plugin-nouislider";
+
+styles/scss/nextjs-material-kit.scss 28:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 30, column 25 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_bootstrap-material-design-base.scss:30:25:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+30 | $mdb-text-color-primary: unquote("rgba(#{$rgb-black}, 0.87)") !default;
+
+styles/scss/core/variables/_bootstrap-material-design-base.scss 31:26  @import
+styles/scss/core/_variables.scss 4:9                                   @import
+styles/scss/nextjs-material-kit.scss 18:9                              root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 34, column 18 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_bootstrap-material-design-base.scss:34:18:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+34 | $mdb-label-color: unquote("rgba(#{$rgb-black}, 0.26)") !default;
+
+styles/scss/core/variables/_bootstrap-material-design-base.scss 35:19  @import
+styles/scss/core/_variables.scss 4:9                                   @import
+styles/scss/nextjs-material-kit.scss 18:9                              root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 35, column 31 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_bootstrap-material-design-base.scss:35:31:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+35 | $mdb-label-color-toggle-focus: unquote("rgba(#{$rgb-black}, .54)") !default;
+
+styles/scss/core/variables/_bootstrap-material-design-base.scss 36:32  @import
+styles/scss/core/_variables.scss 4:9                                   @import
+styles/scss/nextjs-material-kit.scss 18:9                              root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 50, column 9 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:50:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+50 | $colors: map-merge(
+  (
+    "blue": $blue,
+    "indigo": $indigo,
+    "purple": $purple,
+    "pink": $pink,
+    "red": $red,
+    "orange": $orange,
+    "yellow": $yellow,
+    "green": $green,
+    "teal": $teal,
+    "cyan": $cyan,
+    "white": $white,
+    "gray": $gray-600,
+    "gray-dark": $gray-800
+  ),
+  $colors
+);
+
+styles/scss/core/variables/_variables.scss 51:10  @import
+styles/scss/core/_variables.scss 15:9             @import
+styles/scss/nextjs-material-kit.scss 18:9         root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 86, column 15 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_functions.scss:86:15:
+The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($level > 0): #000; else: #fff)
+
+More info: https://sass-lang.com/d/if-function
+
+86 |   $color-base: if($level > 0, #000, #fff);
+
+styles/scss/core/variables/_functions.scss 87:16  @import
+styles/scss/core/_variables.scss 14:9             @import
+styles/scss/nextjs-material-kit.scss 18:9         root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 172, column 19 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:172:19:
+darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -27.7173913043%)
+color.adjust($color, $lightness: -15%)
+
+More info: https://sass-lang.com/d/color-functions
+
+172 | $link-hover-color: darken($link-color, 15%) !default;
+
+styles/scss/core/variables/_variables.scss 173:20  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 271, column 26 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:271:26:
+Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacer, 2) or calc($spacer / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+271 | $headings-margin-bottom: ($spacer / 2) !default;
+
+styles/scss/core/variables/_variables.scss 272:27  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 335, column 26 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:335:26:
+lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 8.7729357798%)
+color.adjust($color, $lightness: 7.5%)
+
+More info: https://sass-lang.com/d/color-functions
+
+335 | $table-dark-border-color: lighten($gray-900, 7.5%) !default;
+
+styles/scss/core/variables/_variables.scss 336:27  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 424, column 27 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:424:27:
+lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 54.4871794872%)
+color.adjust($color, $lightness: 25%)
+
+More info: https://sass-lang.com/d/color-functions
+
+424 | $input-focus-border-color: lighten($component-active-bg, 25%) !default;
+
+styles/scss/core/variables/_variables.scss 425:28  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 489, column 37 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:489:37:
+lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 76.2820512821%)
+color.adjust($color, $lightness: 35%)
+
+More info: https://sass-lang.com/d/color-functions
+
+489 | $custom-control-indicator-active-bg: lighten(
+  $component-active-bg,
+  35%
+) !default;
+
+styles/scss/core/variables/_variables.scss 490:38  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 588, column 28 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:588:28:
+darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -34.4594594595%)
+color.adjust($color, $lightness: -5%)
+
+More info: https://sass-lang.com/d/color-functions
+
+588 | $dropdown-link-hover-color: darken($gray-900, 5%) !default;
+
+styles/scss/core/variables/_variables.scss 589:29  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 634, column 20 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:634:20:
+Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacer, 2) or calc($spacer / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+634 | $navbar-padding-y: ($spacer / 2) !default;
+
+styles/scss/core/variables/_variables.scss 635:21  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 645, column 25 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:645:25:
+Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($nav-link-height - $navbar-brand-height, 2) or calc(($nav-link-height - $navbar-brand-height) / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+645 | $navbar-brand-padding-y: ($nav-link-height - $navbar-brand-height) / 2 !default;
+
+styles/scss/core/variables/_variables.scss 646:26  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 723, column 21 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:723:21:
+Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($grid-gutter-width, 2) or calc($grid-gutter-width / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+723 | $card-group-margin: ($grid-gutter-width / 2) !default;
+
+styles/scss/core/variables/_variables.scss 724:22  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+40 repetitive deprecation warnings omitted.
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 500 in 1941ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 17, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:17:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+17 | @import "core/variables";
+
+styles/scss/nextjs-material-kit.scss 18:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 18, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:18:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+18 | @import "core/mixins";
+
+styles/scss/nextjs-material-kit.scss 19:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 21, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:21:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+21 | @import "core/misc";
+
+styles/scss/nextjs-material-kit.scss 22:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 22, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:22:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+22 | @import "core/page-transition";
+
+styles/scss/nextjs-material-kit.scss 23:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 22, column 34 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_bootstrap-material-design.scss:22:34:
+Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(75, 100)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+22 | $bmd-bmd-label-static-size-ratio: 75 / 100 !default;
+
+styles/scss/core/variables/_bootstrap-material-design.scss 23:35  @import
+styles/scss/core/_variables.scss 17:9                             @import
+styles/scss/nextjs-material-kit.scss 18:9                         root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 23, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:23:8:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+23 | $grays: map-merge(
+  (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900
+  ),
+  $grays
+);
+
+styles/scss/core/variables/_variables.scss 24:9  @import
+styles/scss/core/_variables.scss 15:9            @import
+styles/scss/nextjs-material-kit.scss 18:9        root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 27, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:27:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+27 | @import "plugins/plugin-nouislider";
+
+styles/scss/nextjs-material-kit.scss 28:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 30, column 25 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_bootstrap-material-design-base.scss:30:25:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+30 | $mdb-text-color-primary: unquote("rgba(#{$rgb-black}, 0.87)") !default;
+
+styles/scss/core/variables/_bootstrap-material-design-base.scss 31:26  @import
+styles/scss/core/_variables.scss 4:9                                   @import
+styles/scss/nextjs-material-kit.scss 18:9                              root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 34, column 18 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_bootstrap-material-design-base.scss:34:18:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+34 | $mdb-label-color: unquote("rgba(#{$rgb-black}, 0.26)") !default;
+
+styles/scss/core/variables/_bootstrap-material-design-base.scss 35:19  @import
+styles/scss/core/_variables.scss 4:9                                   @import
+styles/scss/nextjs-material-kit.scss 18:9                              root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 35, column 31 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_bootstrap-material-design-base.scss:35:31:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+35 | $mdb-label-color-toggle-focus: unquote("rgba(#{$rgb-black}, .54)") !default;
+
+styles/scss/core/variables/_bootstrap-material-design-base.scss 36:32  @import
+styles/scss/core/_variables.scss 4:9                                   @import
+styles/scss/nextjs-material-kit.scss 18:9                              root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 50, column 9 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:50:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+50 | $colors: map-merge(
+  (
+    "blue": $blue,
+    "indigo": $indigo,
+    "purple": $purple,
+    "pink": $pink,
+    "red": $red,
+    "orange": $orange,
+    "yellow": $yellow,
+    "green": $green,
+    "teal": $teal,
+    "cyan": $cyan,
+    "white": $white,
+    "gray": $gray-600,
+    "gray-dark": $gray-800
+  ),
+  $colors
+);
+
+styles/scss/core/variables/_variables.scss 51:10  @import
+styles/scss/core/_variables.scss 15:9             @import
+styles/scss/nextjs-material-kit.scss 18:9         root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 86, column 15 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_functions.scss:86:15:
+The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($level > 0): #000; else: #fff)
+
+More info: https://sass-lang.com/d/if-function
+
+86 |   $color-base: if($level > 0, #000, #fff);
+
+styles/scss/core/variables/_functions.scss 87:16  @import
+styles/scss/core/_variables.scss 14:9             @import
+styles/scss/nextjs-material-kit.scss 18:9         root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 172, column 19 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:172:19:
+darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -27.7173913043%)
+color.adjust($color, $lightness: -15%)
+
+More info: https://sass-lang.com/d/color-functions
+
+172 | $link-hover-color: darken($link-color, 15%) !default;
+
+styles/scss/core/variables/_variables.scss 173:20  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 271, column 26 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:271:26:
+Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacer, 2) or calc($spacer / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+271 | $headings-margin-bottom: ($spacer / 2) !default;
+
+styles/scss/core/variables/_variables.scss 272:27  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 335, column 26 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:335:26:
+lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 8.7729357798%)
+color.adjust($color, $lightness: 7.5%)
+
+More info: https://sass-lang.com/d/color-functions
+
+335 | $table-dark-border-color: lighten($gray-900, 7.5%) !default;
+
+styles/scss/core/variables/_variables.scss 336:27  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 424, column 27 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:424:27:
+lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 54.4871794872%)
+color.adjust($color, $lightness: 25%)
+
+More info: https://sass-lang.com/d/color-functions
+
+424 | $input-focus-border-color: lighten($component-active-bg, 25%) !default;
+
+styles/scss/core/variables/_variables.scss 425:28  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 489, column 37 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:489:37:
+lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 76.2820512821%)
+color.adjust($color, $lightness: 35%)
+
+More info: https://sass-lang.com/d/color-functions
+
+489 | $custom-control-indicator-active-bg: lighten(
+  $component-active-bg,
+  35%
+) !default;
+
+styles/scss/core/variables/_variables.scss 490:38  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 588, column 28 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:588:28:
+darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -34.4594594595%)
+color.adjust($color, $lightness: -5%)
+
+More info: https://sass-lang.com/d/color-functions
+
+588 | $dropdown-link-hover-color: darken($gray-900, 5%) !default;
+
+styles/scss/core/variables/_variables.scss 589:29  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 634, column 20 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:634:20:
+Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacer, 2) or calc($spacer / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+634 | $navbar-padding-y: ($spacer / 2) !default;
+
+styles/scss/core/variables/_variables.scss 635:21  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 645, column 25 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:645:25:
+Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($nav-link-height - $navbar-brand-height, 2) or calc(($nav-link-height - $navbar-brand-height) / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+645 | $navbar-brand-padding-y: ($nav-link-height - $navbar-brand-height) / 2 !default;
+
+styles/scss/core/variables/_variables.scss 646:26  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 723, column 21 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:723:21:
+Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($grid-gutter-width, 2) or calc($grid-gutter-width / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+723 | $card-group-margin: ($grid-gutter-width / 2) !default;
+
+styles/scss/core/variables/_variables.scss 724:22  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+40 repetitive deprecation warnings omitted.
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | };
+ ⨯ Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | };
+ ⨯ Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | }; {
+  page: '/'
+}
+Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | };
+ ⨯ Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | };
+ ⨯ Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | }; {
+  page: '/'
+}
+ GET / 500 in 607ms
+Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | };
+ ⨯ Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | };
+ ⨯ Error: In order to get SSR working with tss-react you need to explicitly provide an Emotion cache.
+MUI users be aware: This is not an error strictly related to tss-react, with or without tss-react,
+MUI needs an Emotion cache to be provided for SSR to work.
+Here is the MUI documentation related to SSR setup: https://mui.com/material-ui/guides/server-rendering/
+TSS provides helper that makes the process of setting up SSR easier: https://docs.tss-react.dev/ssr
+    at eval (styles/makeStyles.js:16:29)
+    at ProfilePage (pages/index.js:21:19)
+  14 |     // Return a hook that mimics the MUI v4 hook (returning just classes)
+  15 |     return (props) => {
+> 16 |         const { classes } = useStyles(props);
+     |                             ^
+  17 |         return classes;
+  18 |     };
+  19 | }; {
+  page: '/'
+}
+ GET / 500 in 413ms
+ ⚠ ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 17, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:17:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+17 | @import "core/variables";
+
+styles/scss/nextjs-material-kit.scss 18:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 18, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:18:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+18 | @import "core/mixins";
+
+styles/scss/nextjs-material-kit.scss 19:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 21, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:21:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+21 | @import "core/misc";
+
+styles/scss/nextjs-material-kit.scss 22:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 22, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:22:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+22 | @import "core/page-transition";
+
+styles/scss/nextjs-material-kit.scss 23:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 22, column 34 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_bootstrap-material-design.scss:22:34:
+Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(75, 100)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+22 | $bmd-bmd-label-static-size-ratio: 75 / 100 !default;
+
+styles/scss/core/variables/_bootstrap-material-design.scss 23:35  @import
+styles/scss/core/_variables.scss 17:9                             @import
+styles/scss/nextjs-material-kit.scss 18:9                         root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 23, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:23:8:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+23 | $grays: map-merge(
+  (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900
+  ),
+  $grays
+);
+
+styles/scss/core/variables/_variables.scss 24:9  @import
+styles/scss/core/_variables.scss 15:9            @import
+styles/scss/nextjs-material-kit.scss 18:9        root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 27, column 8 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/nextjs-material-kit.scss:27:8:
+Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+27 | @import "plugins/plugin-nouislider";
+
+styles/scss/nextjs-material-kit.scss 28:9  root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 30, column 25 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_bootstrap-material-design-base.scss:30:25:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+30 | $mdb-text-color-primary: unquote("rgba(#{$rgb-black}, 0.87)") !default;
+
+styles/scss/core/variables/_bootstrap-material-design-base.scss 31:26  @import
+styles/scss/core/_variables.scss 4:9                                   @import
+styles/scss/nextjs-material-kit.scss 18:9                              root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 34, column 18 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_bootstrap-material-design-base.scss:34:18:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+34 | $mdb-label-color: unquote("rgba(#{$rgb-black}, 0.26)") !default;
+
+styles/scss/core/variables/_bootstrap-material-design-base.scss 35:19  @import
+styles/scss/core/_variables.scss 4:9                                   @import
+styles/scss/nextjs-material-kit.scss 18:9                              root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 35, column 31 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_bootstrap-material-design-base.scss:35:31:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+35 | $mdb-label-color-toggle-focus: unquote("rgba(#{$rgb-black}, .54)") !default;
+
+styles/scss/core/variables/_bootstrap-material-design-base.scss 36:32  @import
+styles/scss/core/_variables.scss 4:9                                   @import
+styles/scss/nextjs-material-kit.scss 18:9                              root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 50, column 9 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:50:9:
+Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+50 | $colors: map-merge(
+  (
+    "blue": $blue,
+    "indigo": $indigo,
+    "purple": $purple,
+    "pink": $pink,
+    "red": $red,
+    "orange": $orange,
+    "yellow": $yellow,
+    "green": $green,
+    "teal": $teal,
+    "cyan": $cyan,
+    "white": $white,
+    "gray": $gray-600,
+    "gray-dark": $gray-800
+  ),
+  $colors
+);
+
+styles/scss/core/variables/_variables.scss 51:10  @import
+styles/scss/core/_variables.scss 15:9             @import
+styles/scss/nextjs-material-kit.scss 18:9         root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 86, column 15 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_functions.scss:86:15:
+The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($level > 0): #000; else: #fff)
+
+More info: https://sass-lang.com/d/if-function
+
+86 |   $color-base: if($level > 0, #000, #fff);
+
+styles/scss/core/variables/_functions.scss 87:16  @import
+styles/scss/core/_variables.scss 14:9             @import
+styles/scss/nextjs-material-kit.scss 18:9         root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 172, column 19 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:172:19:
+darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -27.7173913043%)
+color.adjust($color, $lightness: -15%)
+
+More info: https://sass-lang.com/d/color-functions
+
+172 | $link-hover-color: darken($link-color, 15%) !default;
+
+styles/scss/core/variables/_variables.scss 173:20  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 271, column 26 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:271:26:
+Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacer, 2) or calc($spacer / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+271 | $headings-margin-bottom: ($spacer / 2) !default;
+
+styles/scss/core/variables/_variables.scss 272:27  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 335, column 26 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:335:26:
+lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 8.7729357798%)
+color.adjust($color, $lightness: 7.5%)
+
+More info: https://sass-lang.com/d/color-functions
+
+335 | $table-dark-border-color: lighten($gray-900, 7.5%) !default;
+
+styles/scss/core/variables/_variables.scss 336:27  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 424, column 27 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:424:27:
+lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 54.4871794872%)
+color.adjust($color, $lightness: 25%)
+
+More info: https://sass-lang.com/d/color-functions
+
+424 | $input-focus-border-color: lighten($component-active-bg, 25%) !default;
+
+styles/scss/core/variables/_variables.scss 425:28  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 489, column 37 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:489:37:
+lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 76.2820512821%)
+color.adjust($color, $lightness: 35%)
+
+More info: https://sass-lang.com/d/color-functions
+
+489 | $custom-control-indicator-active-bg: lighten(
+  $component-active-bg,
+  35%
+) !default;
+
+styles/scss/core/variables/_variables.scss 490:38  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 588, column 28 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:588:28:
+darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -34.4594594595%)
+color.adjust($color, $lightness: -5%)
+
+More info: https://sass-lang.com/d/color-functions
+
+588 | $dropdown-link-hover-color: darken($gray-900, 5%) !default;
+
+styles/scss/core/variables/_variables.scss 589:29  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 634, column 20 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:634:20:
+Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacer, 2) or calc($spacer / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+634 | $navbar-padding-y: ($spacer / 2) !default;
+
+styles/scss/core/variables/_variables.scss 635:21  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 645, column 25 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:645:25:
+Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($nav-link-height - $navbar-brand-height, 2) or calc(($nav-link-height - $navbar-brand-height) / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+645 | $navbar-brand-padding-y: ($nav-link-height - $navbar-brand-height) / 2 !default;
+
+styles/scss/core/variables/_variables.scss 646:26  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+Deprecation Warning on line 723, column 21 of file:///Users/diegofernandolibreros/Desktop/portafolio-web/styles/scss/core/variables/_variables.scss:723:21:
+Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($grid-gutter-width, 2) or calc($grid-gutter-width / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+723 | $card-group-margin: ($grid-gutter-width / 2) !default;
+
+styles/scss/core/variables/_variables.scss 724:22  @import
+styles/scss/core/_variables.scss 15:9              @import
+styles/scss/nextjs-material-kit.scss 18:9          root stylesheet
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss
+
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+40 repetitive deprecation warnings omitted.
+
+Import trace for requested module:
+./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[1]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[8].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[8].oneOf[14].use[3]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[8].oneOf[14].use[4]!./styles/scss/nextjs-material-kit.scss
+./styles/scss/nextjs-material-kit.scss

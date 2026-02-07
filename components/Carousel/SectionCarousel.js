@@ -1,8 +1,8 @@
 import React from "react";
 // react component for creating beautiful carousel
 import Slider from "react-slick";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
+// @mui/material components
+import { makeStyles } from "../../styles/makeStyles";
 // core components
 import GridContainer from "../Grid/GridContainer.js";
 import GridItem from "../Grid/GridItem.js";

@@ -1,16 +1,16 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
-// @material-ui/core components
+// @mui/material components
 import GridContainer from "../Grid/GridContainer.js";
 import GridItem from "../Grid/GridItem.js";
 import NavPills from "../NavPills/NavPills.js";
 
-// @material-ui/icons
-import WorkOutlineIcon from '@material-ui/icons/WorkOutline';
-import SchoolIcon from '@material-ui/icons/School';
-import AppsIcon from '@material-ui/icons/Apps';
-import { makeStyles } from "@material-ui/core/styles";
+// @mui/icons-material
+import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
+import SchoolIcon from '@mui/icons-material/School';
+import AppsIcon from '@mui/icons-material/Apps';
+import { makeStyles } from "../../styles/makeStyles";
 
 import UnillanosItem from './unillanosItem'
 import UdemyItem from './udemyItem';

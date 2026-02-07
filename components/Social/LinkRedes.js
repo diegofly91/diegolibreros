@@ -1,7 +1,7 @@
-import MailIcon from '@material-ui/icons/Mail';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import IconButton from '@material-ui/core/IconButton';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import MailIcon from '@mui/icons-material/Mail';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import IconButton from '@mui/material/IconButton';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const socialLink = [
     {
