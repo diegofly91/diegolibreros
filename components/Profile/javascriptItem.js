@@ -1,22 +1,7 @@
 import React from 'react';
-import { makeStyles } from '../../styles/makeStyles';
-import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem';
+import { ImageList, ImageListItem, useTheme } from '@mui/material';
+import Image from 'next/image';
 import tileData from './tileData';
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-    overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,
-  },
-  gridList: {
-    width: 500,
-    height: 450,
-  },
-}));
 
 /**
  * The example data is structured as follows:
@@ -37,14 +22,31 @@ const useStyles = makeStyles((theme) => ({
  * ];
  */
 export default function ImageGridList() {
-  const classes = useStyles();
+  const theme = useTheme();
+  // matchDownSm logic could be used if we want responsive cols, but original code had fixed cols={3}
+  // We'll keep cols={3} as per original intent but ensure it's responsive if needed.
+  // Actually original had cols={3} on list and tile.cols on items.
 
   return (
-    <div className={classes.root}>
-      <ImageList rowHeight={160} className={classes.gridList} cols={3}>
+    <div style={{
+      display: 'flex',
+      flexWrap: 'wrap',
+      justifyContent: 'space-around',
+      overflow: 'hidden',
+      backgroundColor: theme.palette.background.paper,
+    }}>
+      <ImageList rowHeight={160} cols={3} sx={{ width: 500, height: 450 }}>
         {tileData.map((tile) => (
           <ImageListItem key={tile.img} cols={tile.cols || 1}>
-            <img src={tile.img} alt={tile.title} />
+            <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+              <Image
+                src={`/${tile.img}`}
+                alt={tile.title}
+                fill
+                sizes="33vw"
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
           </ImageListItem>
         ))}
       </ImageList>

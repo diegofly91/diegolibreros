@@ -1,67 +1,48 @@
+// import React from 'react'; // React 19 doesn't need explicit React import for JSX but keeping it is fine
 import React from 'react';
-import { makeStyles } from '../../styles/makeStyles';
-import { ImageListItemBar, ImageListItem, ImageList, IconButton } from '@mui/material';
+import { ImageListItemBar, ImageListItem, ImageList, IconButton, useTheme, useMediaQuery } from '@mui/material';
+import Image from 'next/image';
 import InfoIcon from '@mui/icons-material/Info';
 // import tileData from './tileData';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-    overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,
-  },
-  container: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'flex-start',
-    width: '100%'
-  },
-  containerMobile: {
-    [theme.breakpoints.down('sm')]: {
-      width: '100% !important',
-    },
-    width: '33% !important',
-  },
-  gridList: {
-    // width: 500,
-    // height:450
-  },
-  title: {
-    width: '100%'
-  },
-  img: {
-    width: 'auto',
-    height: '60%',
-    left: 'inherit',
-    transform: 'inherit',
-    position: 'relative',
-    top: 'inherit'
-  },
-  icon: {
-    color: 'rgba(255, 255, 255, 0.54)',
-  },
-}));
 
 export default function ImageGridList() {
-  const classes = useStyles();
+  const theme = useTheme();
+  const matchDownSm = useMediaQuery(theme.breakpoints.down('sm'));
+  const cols = matchDownSm ? 1 : 3;
 
   return (
-    <div className={classes.root}>
-      <ImageList rowHeight={180} className={classes.gridList}>
+    <div style={{
+      display: 'flex',
+      flexWrap: 'wrap',
+      justifyContent: 'space-around',
+      overflow: 'hidden',
+      backgroundColor: theme.palette.background.paper,
+    }}>
+      <ImageList rowHeight={180} cols={cols} sx={{ width: '100%', m: 0 }}>
         {tileData.map((tile) => (
-          <ImageListItem key={tile.img} classes={{ item: classes.container, root: classes.containerMobile }}>
-            <img src={tile.img} alt={tile.title} className={classes.img} />
+          <ImageListItem key={tile.img} sx={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: '100% !important',
+          }}>
+            <div style={{ position: 'relative', width: '100%', height: '80%', display: 'flex', justifyContent: 'center' }}>
+              <Image
+                src={`/${tile.img}`}
+                alt={tile.title}
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 33vw"
+                style={{ objectFit: 'contain' }}
+              />
+            </div>
             <ImageListItemBar
               title={tile.title}
-              // subtitle={<span>by: {tile.author}</span>}
-              className={classes.title}
-            // actionIcon={
-            //   <IconButton aria-label={`info about ${tile.title}`} className={classes.icon}>
-            //     <InfoIcon />
-            //   </IconButton>
-            // }
+              position="below"
+              sx={{
+                textAlign: 'center',
+                '& .MuiImageListItemBar-title': { fontSize: '1rem', fontWeight: 'bold' }
+              }}
             />
           </ImageListItem>
         ))}

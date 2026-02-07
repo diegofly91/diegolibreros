@@ -9,6 +9,20 @@ import createEmotionCache from '../styles/createEmotionCache';
 
 import "../styles/scss/nextjs-material-kit.scss";
 
+import { Roboto, Roboto_Slab } from 'next/font/google';
+
+const roboto = Roboto({
+  weight: ['300', '400', '500', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+});
+
+const robotoSlab = Roboto_Slab({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+});
+
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
 
@@ -21,10 +35,24 @@ export default function MyApp(props) {
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <title>Diego Libreros Dev</title>
       </Head>
+      <style jsx global>{`
+        :root {
+          --font-roboto: ${roboto.style.fontFamily};
+          --font-roboto-slab: ${robotoSlab.style.fontFamily};
+        }
+        body {
+          font-family: var(--font-roboto);
+        }
+        h1, h2, h3, h4, h5, h6 {
+          font-family: var(--font-roboto-slab);
+        }
+      `}</style>
       <ThemeProvider theme={theme}>
-        {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
-        <CssBaseline />
-        <Component {...pageProps} />
+        <main className={roboto.className}>
+          {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+          <CssBaseline />
+          <Component {...pageProps} />
+        </main>
       </ThemeProvider>
     </CacheProvider>
   );

@@ -1,5 +1,22 @@
 export default [
     {
+        title: 'Turnia.app',
+        url: 'https://turnia.app',
+        image: 'turnia.png',
+        position: 'Full Stack Developer (Personal Project)',
+        date: 'Jan 2025 - Present',
+        functions: [
+            'Design and implementation of microservices architecture with NestJS and GraphQL, prioritizing scalability, security and performance.',
+            'Backend architecture design (API Gateway + domain-based microservices).',
+            'Implementation of real-time GraphQL Subscriptions.',
+            'Session management with JWT + Redis (global invalidation).',
+            'Granular RBAC with custom guards and interceptors.',
+            'PostgreSQL database-per-service + Redis for caching.',
+            'Hybrid architecture (synchronous TCP + RabbitMQ planned).',
+            'Real-time turn management system for businesses.'
+        ]
+    },
+    {
         title: 'Axonier.',
         url: 'https://www.axonier.com',
         image: 'axonier.png',
@@ -9,7 +26,9 @@ export default [
             'API development in NodeJs with Angular-style NestJs framework.',
             'Integration with Azure services.',
             'Structure and design modules in relational databases.',
-            'Implementation and deployment of solutions on servers (Azure DevOps).'
+            'Implementation and deployment of solutions on servers (Azure DevOps).',
+            'Development backend for indexing sites and analyzing files (PDF/DOCX/XLSX) via multipart/form-data, generating insights with AI through RAG architecture. Implements hybrid search (full-text + vector embeddings), entity extraction and TOON optimization to reduce ~40% tokens. Includes SSE streaming, multi-provider support.',
+            'Y-Forms Lite: Vue 3 + TypeScript library for dynamic forms using custom HTML tags (<y-text>, <y-select>, <y-file>). Features: validations, masks, conditional fields, wizard steps, recaptcha, and dynamic lists with automatic UI configuration replication for rapid complex form development.'
         ]
     },
     {
