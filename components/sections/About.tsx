@@ -56,7 +56,7 @@ export default function About() {
                                 }}
                             >
                                 <Image
-                                    src="/DIEGOFLIBREROS.jpeg"
+                                    src="DIEGOFLIBREROS.jpeg"
                                     alt="Diego Libreros"
                                     fill
                                     style={{ objectFit: 'cover' }}

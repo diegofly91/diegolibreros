@@ -7,11 +7,10 @@ const nextConfig = {
     includePaths: [path.join(__dirname, 'styles')],
     silenceDeprecations: ['legacy-js-api', 'import', 'color-functions', 'global-builtin', 'slash-div'],
   },
-  assetPrefix: isProd ? '/diegolibreros/' : '',
   output: isProd ? 'export' : undefined,
-  images: {
-    unoptimized: true,
-  }
+  basePath: isProd ? "/diegolibreros" : "",
+  assetPrefix: isProd ? "/diegolibreros/" : "",
+  images: { unoptimized: true },
 };
 
 module.exports = nextConfig;

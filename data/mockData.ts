@@ -16,6 +16,7 @@ export const skills = [
     { name: 'Redis', category: 'Backend', icon: '🔴' },
     { name: 'RabbitMQ', category: 'Backend', icon: '🐰' },
     { name: 'SQL Server', category: 'Backend', icon: '🛢️' },
+    { name: 'Go (Golang)', category: 'Backend', icon: '🐹' },
 
     // Architecture & AI
     { name: 'Microservices', category: 'AI & Arch', icon: '🏗️' },
@@ -61,7 +62,7 @@ export const projects = [
     {
         title: 'Turnia.app',
         description: 'Sistema empresarial de gestión de turnos en tiempo real con arquitectura de microservicios. Implementa GraphQL Subscriptions para actualizaciones en vivo, gestión de sesiones con JWT + Redis, RBAC granular, y PostgreSQL database-per-service. Arquitectura híbrida con TCP sincrónico y RabbitMQ para mensajería asíncrona.',
-        image: '/turnia.png',
+        image: 'turnia.png',
         stack: ['NestJS', 'GraphQL', 'PostgreSQL', 'Redis', 'TypeScript', 'RabbitMQ', 'Docker'],
         demo: 'https://turnia.app',
         github: '#',
@@ -70,7 +71,7 @@ export const projects = [
     {
         title: 'Postaenlinea',
         description: 'Plataforma completa de gestión de turnos y atención al cliente para empresas. Desarrollo Full Stack con API REST en NestJS, integración con APIs de terceros (Mailgun, Google Maps), diseño de base de datos relacional optimizada, y aplicaciones web/móvil en React y React Native con experiencia de usuario fluida.',
-        image: '/postaenlinea.png',
+        image: 'postaenlinea.png',
         stack: ['NestJS', 'React', 'React Native', 'PostgreSQL', 'REST API', 'Mailgun', 'Google Maps'],
         demo: 'https://www.postadigital.com',
         github: '#',
@@ -79,7 +80,7 @@ export const projects = [
     {
         title: 'Y-Lite Search IA',
         description: 'Módulo de búsqueda inteligente con arquitectura RAG (Retrieval-Augmented Generation). Implementa búsqueda híbrida combinando full-text y embeddings vectoriales (384 dimensiones), formato TOON para optimización de tokens (~40% reducción), y análisis de archivos con IA. Integración con Azure Cognitive Search y múltiples proveedores de LLM.',
-        image: '/search-ia.png',
+        image: 'search-ia.png',
         stack: ['NestJS', 'Azure AI', 'HuggingFace', 'Vector Search', 'RAG', 'TOON', 'TypeScript'],
         github: '#',
         featured: false,
@@ -87,7 +88,7 @@ export const projects = [
     {
         title: 'Y-Forms Lite',
         description: 'Librería en Vue 3 + TypeScript que genera formularios dinámicos a partir de etiquetas HTML personalizadas (ej: <y-text>, <y-select>, <y-file>). Permite configurar validaciones, máscaras, campos condicionales, pasos (wizard), recaptcha y listas dinámicas, replicando automáticamente la configuración en la UI.',
-        image: '/yforms-lite.png',
+        image: 'yforms-lite.png',
         stack: ['Vue 3', 'TypeScript', 'Vite', 'Dynamic Forms', 'UI Library'],
         github: '#',
         featured: false,
