@@ -40,7 +40,7 @@ export default function Projects() {
             sx={{
                 py: { xs: 8, md: 12 },
                 backgroundColor: 'background.default',
-                backgroundImage: 'url(/sign.jpg)',
+                backgroundImage: 'url(sign.jpg)',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
@@ -62,7 +62,7 @@ export default function Projects() {
                 <Typography
                     variant="body1"
                     sx={{
-                        color: 'text.secondary',
+                        color: 'text.primary',
                         textAlign: 'center',
                         maxWidth: '600px',
                         mx: 'auto',

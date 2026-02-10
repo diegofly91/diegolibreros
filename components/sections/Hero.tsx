@@ -15,7 +15,7 @@ export default function Hero() {
                 alignItems: 'center',
                 position: 'relative',
                 overflow: 'hidden',
-                backgroundImage: 'url(/landing-bg.jpg)',
+                backgroundImage: 'url(landing-bg.jpg)',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
