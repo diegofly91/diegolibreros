@@ -8,9 +8,10 @@ import EmailIcon from '@mui/icons-material/Email';
 
 const socialLinks = [
     { icon: <GitHubIcon />, href: 'https://github.com/diegofly91', label: 'GitHub' },
-    { icon: <LinkedInIcon />, href: 'https://linkedin.com/in/diegolibreros', label: 'LinkedIn' },
-    { icon: <TwitterIcon />, href: 'https://twitter.com/diegolibreros', label: 'Twitter' },
-    { icon: <EmailIcon />, href: 'mailto:diego@example.com', label: 'Email' },
+    { icon: <LinkedInIcon />, href: 'https://www.linkedin.com/in/diego-libreros-b69828159/', label: 'LinkedIn' },
+    /*{ icon: <TwitterIcon />, href: 'https://twitter.com/diegolibreros', label: 'Twitter' },
+     { icon: <EmailIcon />, href: 'mailto:diego@example.com', label: 'Email' },
+      */
 ];
 
 export default function Footer() {

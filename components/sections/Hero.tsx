@@ -68,7 +68,7 @@ export default function Hero() {
                             lineHeight: 1.6,
                         }}
                     >
-                        Construyo soluciones escalables y modernas con{' '}
+                        Construyo aplicaciones escalables y modernas{' '}
                         <Box
                             component="span"
                             sx={{
@@ -76,9 +76,9 @@ export default function Hero() {
                                 fontWeight: 600,
                             }}
                         >
-                            NestJS, React, Next.js
+                            diseñando APIs robustas y aplicaciones enfocadas en el usuario
                         </Box>{' '}
-                        y arquitectura cloud
+                        con arquitectura limpia y despliegue en entornos cloud.
                     </Typography>
 
                     {/* CTA Buttons */}

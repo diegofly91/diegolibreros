@@ -11,19 +11,40 @@ import {
     Chip,
     Button,
     Stack,
+    Modal,
+    Backdrop,
+    Fade,
+    IconButton,
 } from '@mui/material';
 import LaunchIcon from '@mui/icons-material/Launch';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import CloseIcon from '@mui/icons-material/Close';
+import ZoomInIcon from '@mui/icons-material/ZoomIn';
 import { projects } from '../../data/mockData';
 import Image from 'next/image';
 
 export default function Projects() {
+    const [selectedImage, setSelectedImage] = React.useState<string | null>(null);
+
+    const handleOpen = (image: string) => {
+        setSelectedImage(image);
+    };
+
+    const handleClose = () => {
+        setSelectedImage(null);
+    };
+
     return (
         <Box
             id="projects"
             sx={{
                 py: { xs: 8, md: 12 },
                 backgroundColor: 'background.default',
+                backgroundImage: 'url(/sign.jpg)',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                backgroundAttachment: { xs: 'scroll', md: 'fixed' },
             }}
         >
             <Container maxWidth="lg">
@@ -66,14 +87,38 @@ export default function Projects() {
                                 }}
                             >
                                 <Box
+                                    onClick={() => handleOpen(project.image)}
                                     sx={{
                                         position: 'relative',
                                         width: project.featured ? { xs: '100%', md: '50%' } : '100%',
                                         height: project.featured ? { xs: 250, md: 'auto' } : 250,
                                         backgroundColor: 'rgba(255,255,255,0.05)',
                                         overflow: 'hidden',
+                                        cursor: 'zoom-in',
+                                        '&:hover .zoom-overlay': {
+                                            opacity: 1,
+                                        },
                                     }}
                                 >
+                                    <Box
+                                        className="zoom-overlay"
+                                        sx={{
+                                            position: 'absolute',
+                                            top: 0,
+                                            left: 0,
+                                            width: '100%',
+                                            height: '100%',
+                                            backgroundColor: 'rgba(0,0,0,0.3)',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'center',
+                                            opacity: 0,
+                                            transition: 'opacity 0.3s ease',
+                                            zIndex: 2,
+                                        }}
+                                    >
+                                        <ZoomInIcon sx={{ color: 'white', fontSize: '2.5rem' }} />
+                                    </Box>
                                     <Image
                                         src={project.image}
                                         alt={project.title}
@@ -167,6 +212,75 @@ export default function Projects() {
                     ))}
                 </Grid>
             </Container>
+
+            {/* Image Preview Modal */}
+            <Modal
+                open={Boolean(selectedImage)}
+                onClose={handleClose}
+                closeAfterTransition
+                slots={{ backdrop: Backdrop }}
+                slotProps={{
+                    backdrop: {
+                        timeout: 500,
+                        sx: { backgroundColor: 'rgba(0, 0, 0, 0.9)' }
+                    },
+                }}
+            >
+                <Fade in={Boolean(selectedImage)}>
+                    <Box
+                        sx={{
+                            position: 'absolute',
+                            top: '50%',
+                            left: '50%',
+                            transform: 'translate(-50%, -50%)',
+                            width: '90vw',
+                            height: '90vh',
+                            outline: 'none',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                        }}
+                    >
+                        <IconButton
+                            onClick={handleClose}
+                            sx={{
+                                position: 'fixed',
+                                top: 20,
+                                right: 20,
+                                color: 'white',
+                                backgroundColor: 'rgba(255,255,255,0.1)',
+                                '&:hover': {
+                                    backgroundColor: 'rgba(255,255,255,0.2)',
+                                },
+                                zIndex: 10,
+                            }}
+                        >
+                            <CloseIcon />
+                        </IconButton>
+
+                        {selectedImage && (
+                            <Box
+                                sx={{
+                                    position: 'relative',
+                                    width: '100%',
+                                    height: '100%',
+                                    borderRadius: 2,
+                                    overflow: 'hidden',
+                                    boxShadow: '0 0 50px rgba(0,0,0,0.5)',
+                                }}
+                            >
+                                <Image
+                                    src={selectedImage}
+                                    alt="Preview"
+                                    fill
+                                    style={{ objectFit: 'contain' }}
+                                    onClick={handleClose}
+                                />
+                            </Box>
+                        )}
+                    </Box>
+                </Fade>
+            </Modal>
         </Box>
     );
 }

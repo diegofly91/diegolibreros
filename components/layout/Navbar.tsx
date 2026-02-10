@@ -20,11 +20,11 @@ import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
 const navItems = [
-    { label: 'Home', href: '#home' },
-    { label: 'About', href: '#about' },
-    { label: 'Skills', href: '#skills' },
-    { label: 'Projects', href: '#projects' },
-    { label: 'Experience', href: '#experience' },
+    { label: 'Inicio', href: '#home' },
+    { label: 'Sobre mí', href: '#about' },
+    { label: 'Habilidades', href: '#skills' },
+    { label: 'Proyectos', href: '#projects' },
+    { label: 'Experiencia', href: '#experience' },
 ];
 
 export default function Navbar() {
@@ -133,7 +133,7 @@ export default function Navbar() {
 
                         <Box sx={{ flexGrow: 1 }} />
 
-                        {/* CTA Button */}
+                        {/* CTA Button 
                         {!isMobile && (
                             <Button
                                 variant="contained"
@@ -143,9 +143,10 @@ export default function Navbar() {
                                     py: 1,
                                 }}
                             >
-                                Let's Talk
+                                Hablemos
                             </Button>
                         )}
+                            */}
 
                         {/* Mobile menu icon */}
                         {isMobile && (

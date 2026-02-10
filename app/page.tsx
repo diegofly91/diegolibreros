@@ -15,7 +15,7 @@ export default function HomePage() {
             <Skills />
             <Projects />
             <Experience />
-            <Contact />
+            {/* <Contact /> */}
         </Box>
     );
 }
