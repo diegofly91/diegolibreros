@@ -53,6 +53,8 @@ export default function Projects() {
                     sx={{
                         fontSize: { xs: '2rem', md: '3rem' },
                         fontWeight: 700,
+                        color: '#fff',
+                        textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
                         mb: 2,
                         textAlign: 'center',
                     }}
@@ -62,7 +64,8 @@ export default function Projects() {
                 <Typography
                     variant="body1"
                     sx={{
-                        color: 'text.primary',
+                        color: '#fff',
+                        textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
                         textAlign: 'center',
                         maxWidth: '600px',
                         mx: 'auto',
