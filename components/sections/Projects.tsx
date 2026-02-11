@@ -23,16 +23,72 @@ import ZoomInIcon from '@mui/icons-material/ZoomIn';
 import { projects } from '../../data/mockData';
 import Image from 'next/image';
 
+const MIN_ZOOM = 0.5;
+const MAX_ZOOM = 4;
+const ZOOM_SENSITIVITY = 0.002;
+
 export default function Projects() {
     const [selectedImage, setSelectedImage] = React.useState<string | null>(null);
+    const [zoom, setZoom] = React.useState(1);
+    const [pan, setPan] = React.useState({ x: 0, y: 0 });
+    const [isDragging, setIsDragging] = React.useState(false);
+    const dragStart = React.useRef({ x: 0, y: 0, panX: 0, panY: 0 });
+    const previewContainerRef = React.useRef<HTMLDivElement>(null);
 
     const handleOpen = (image: string) => {
         setSelectedImage(image);
+        setZoom(1);
+        setPan({ x: 0, y: 0 });
     };
 
     const handleClose = () => {
         setSelectedImage(null);
+        setZoom(1);
+        setPan({ x: 0, y: 0 });
     };
+
+    const handleWheel = (e: React.WheelEvent) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const container = previewContainerRef.current;
+        if (!container) return;
+        const rect = container.getBoundingClientRect();
+        const cursorX = e.clientX - rect.left;
+        const cursorY = e.clientY - rect.top;
+        setZoom((z) => {
+            const newZoom = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, z - e.deltaY * ZOOM_SENSITIVITY));
+            setPan((p) => ({
+                x: p.x * (newZoom / z) + cursorX * (1 - newZoom / z),
+                y: p.y * (newZoom / z) + cursorY * (1 - newZoom / z),
+            }));
+            return newZoom;
+        });
+    };
+
+    const handleMouseDown = (e: React.MouseEvent) => {
+        if (e.button !== 0) return;
+        setIsDragging(true);
+        dragStart.current = { x: e.clientX, y: e.clientY, panX: pan.x, panY: pan.y };
+    };
+
+    const handleMouseMove = (e: React.MouseEvent) => {
+        if (!isDragging) return;
+        setPan({
+            x: dragStart.current.panX + (e.clientX - dragStart.current.x),
+            y: dragStart.current.panY + (e.clientY - dragStart.current.y),
+        });
+    };
+
+    const handleMouseUp = () => setIsDragging(false);
+    const handleMouseLeave = () => setIsDragging(false);
+
+    React.useEffect(() => {
+        const el = previewContainerRef.current;
+        if (!el || !selectedImage) return;
+        const preventScroll = (e: WheelEvent) => e.preventDefault();
+        el.addEventListener('wheel', preventScroll, { passive: false });
+        return () => el.removeEventListener('wheel', preventScroll);
+    }, [selectedImage]);
 
     return (
         <Box
@@ -219,7 +275,9 @@ export default function Projects() {
             {/* Image Preview Modal */}
             <Modal
                 open={Boolean(selectedImage)}
-                onClose={handleClose}
+                onClose={(_e, reason) => {
+                    if (reason === 'escapeKeyDown') handleClose();
+                }}
                 closeAfterTransition
                 slots={{ backdrop: Backdrop }}
                 slotProps={{
@@ -263,6 +321,13 @@ export default function Projects() {
 
                         {selectedImage && (
                             <Box
+                                ref={previewContainerRef}
+                                onWheel={handleWheel}
+                                onMouseDown={handleMouseDown}
+                                onMouseMove={handleMouseMove}
+                                onMouseUp={handleMouseUp}
+                                onMouseLeave={handleMouseLeave}
+                                onDoubleClick={handleClose}
                                 sx={{
                                     position: 'relative',
                                     width: '100%',
@@ -270,15 +335,28 @@ export default function Projects() {
                                     borderRadius: 2,
                                     overflow: 'hidden',
                                     boxShadow: '0 0 50px rgba(0,0,0,0.5)',
+                                    cursor: isDragging ? 'grabbing' : zoom > 1 ? 'grab' : 'zoom-in',
                                 }}
                             >
-                                <Image
-                                    src={selectedImage}
-                                    alt="Preview"
-                                    fill
-                                    style={{ objectFit: 'contain' }}
-                                    onClick={handleClose}
-                                />
+                                <Box
+                                    sx={{
+                                        position: 'absolute',
+                                        left: 0,
+                                        top: 0,
+                                        width: '100%',
+                                        height: '100%',
+                                        transform: `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`,
+                                        transformOrigin: '0 0',
+                                    }}
+                                >
+                                    <Image
+                                        src={selectedImage}
+                                        alt="Preview"
+                                        fill
+                                        style={{ objectFit: 'contain' }}
+                                        draggable={false}
+                                    />
+                                </Box>
                             </Box>
                         )}
                     </Box>
