@@ -1,16 +1,8 @@
 'use client';
 import * as React from 'react';
-import { Box, Container, Typography, Grid, Card, CardContent } from '@mui/material';
-import CodeIcon from '@mui/icons-material/Code';
-import SpeedIcon from '@mui/icons-material/Speed';
-import CloudIcon from '@mui/icons-material/Cloud';
+import { Box, Container, Typography, Grid } from '@mui/material';
 import Image from 'next/image';
 
-const stats = [
-    { icon: <CodeIcon />, value: '5+', label: 'Años de Experiencia' },
-    { icon: <SpeedIcon />, value: '50+', label: 'Proyectos Completados' },
-    { icon: <CloudIcon />, value: '10+', label: 'Tecnologías Dominadas' },
-];
 
 export default function About() {
     return (
@@ -76,7 +68,7 @@ export default function About() {
                                 textAlign: { xs: 'center', md: 'left' },
                             }}
                         >
-                            Sobre Mí
+                            Ingeniería & Negocio
                         </Typography>
                         <Typography
                             variant="body1"
@@ -87,9 +79,9 @@ export default function About() {
                                 textAlign: { xs: 'center', md: 'left' },
                             }}
                         >
-                            Soy un desarrollador Full Stack apasionado por crear soluciones tecnológicas
-                            escalables y eficientes. Me especializo en arquitecturas modernas, desarrollo
-                            de APIs robustas y experiencias de usuario excepcionales.
+                            Soy un desarrollador orientado a producto que une código sólido con visión estratégica.
+                            Me especializo en migrar sistemas legados, orquestar microservicios e integrar tecnologías
+                            complejas (motores RAG, pasarelas asíncronas) bajo entornos CI/CD.
                         </Typography>
                         <Typography
                             variant="body1"
@@ -101,58 +93,13 @@ export default function About() {
                                 textAlign: { xs: 'center', md: 'left' },
                             }}
                         >
-                            Con una sólida base en Node.js, NestJS y React, disfruto enfrentando desafíos técnicos complejos
-                            y transformando ideas en productos digitales tangibles de alta calidad.
+                            Acostumbrado a liderar iniciativas en marcos SCRUM y colaborar de cerca con
+                            equipos multifuncionales, traduzco requerimientos de negocio en arquitecturas
+                            Node.js/React de alta disponibilidad y bajo acoplamiento técnico.
                         </Typography>
                     </Grid>
                 </Grid>
 
-                {/* Stats Cards */}
-                <Grid container spacing={3}>
-                    {stats.map((stat, index) => (
-                        <Grid item xs={12} sm={4} key={index}>
-                            <Card
-                                sx={{
-                                    textAlign: 'center',
-                                    py: 4,
-                                    height: '100%',
-                                    transition: 'all 0.3s ease',
-                                    '&:hover': {
-                                        transform: 'translateY(-8px)',
-                                    },
-                                }}
-                            >
-                                <CardContent>
-                                    <Box
-                                        sx={{
-                                            display: 'inline-flex',
-                                            p: 2,
-                                            borderRadius: '12px',
-                                            backgroundColor: 'rgba(0,112,243,0.1)',
-                                            color: 'secondary.main',
-                                            mb: 2,
-                                        }}
-                                    >
-                                        {stat.icon}
-                                    </Box>
-                                    <Typography
-                                        variant="h3"
-                                        sx={{
-                                            fontSize: '2.5rem',
-                                            fontWeight: 700,
-                                            mb: 1,
-                                        }}
-                                    >
-                                        {stat.value}
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        {stat.label}
-                                    </Typography>
-                                </CardContent>
-                            </Card>
-                        </Grid>
-                    ))}
-                </Grid>
             </Container>
         </Box>
     );

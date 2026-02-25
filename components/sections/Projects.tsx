@@ -126,9 +126,10 @@ export default function Projects() {
                         maxWidth: '600px',
                         mx: 'auto',
                         mb: 6,
+                        opacity: 0.9,
                     }}
                 >
-                    Una selección de proyectos que demuestran mis habilidades y experiencia
+                    Selección de proyectos donde la arquitectura cloud, algoritmos de alto rendimiento y el diseño de sistemas fueron clave para el éxito del negocio.
                 </Typography>
 
                 <Grid container spacing={4}>
@@ -206,7 +207,12 @@ export default function Projects() {
                                     <Typography
                                         variant="body2"
                                         color="text.secondary"
-                                        sx={{ mb: 3, lineHeight: 1.7 }}
+                                        sx={{
+                                            mb: 4,
+                                            lineHeight: 1.8,
+                                            fontSize: { xs: '0.875rem', md: '0.95rem' },
+                                            flexGrow: 1
+                                        }}
                                     >
                                         {project.description}
                                     </Typography>
@@ -218,8 +224,11 @@ export default function Projects() {
                                                 label={tech}
                                                 size="small"
                                                 sx={{
-                                                    backgroundColor: 'rgba(0,112,243,0.1)',
+                                                    backgroundColor: 'rgba(0,112,243,0.08)',
                                                     color: 'secondary.main',
+                                                    border: '1px solid rgba(0,112,243,0.2)',
+                                                    fontWeight: 600,
+                                                    fontSize: '0.75rem'
                                                 }}
                                             />
                                         ))}

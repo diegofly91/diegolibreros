@@ -38,7 +38,7 @@ export default function Skills() {
                         mb: 8,
                     }}
                 >
-                    Mi ecosistema de herramientas para el desarrollo de soluciones de alto impacto
+                    Ecosistema tecnológico orientado al tipado fuerte, arquitectura en la nube y despliegue continuo (CI/CD).
                 </Typography>
 
                 <Grid container spacing={3}>

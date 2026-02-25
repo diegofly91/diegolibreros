@@ -168,21 +168,35 @@ export default function Experience() {
                                         )}
                                     </Typography>
                                     <Box component="ul" sx={{ pl: 2, m: 0 }}>
-                                        {exp.functions.map((func, i) => (
-                                            <Typography
-                                                component="li"
-                                                variant="body2"
-                                                color="text.secondary"
-                                                key={i}
-                                                sx={{
-                                                    mb: 1,
-                                                    lineHeight: 1.6,
-                                                    fontSize: { xs: '0.8125rem', md: '0.875rem' },
-                                                }}
-                                            >
-                                                {func}
-                                            </Typography>
-                                        ))}
+                                        {exp.functions.map((func, i) => {
+                                            // Define keywords for recruiter scanning
+                                            const keywords = [/Node\.js/gi, /NestJS/gi, /React/gi, /Next\.js/gi, /CI\/CD/gi, /Azure/gi, /GraphQL/gi, /PostgreSQL/gi, /Redis/gi, /RabbitMQ/gi, /RAG/gi, /Cloud/gi, /SSE/gi, /Docker/gi];
+                                            let formattedFunc = func;
+
+                                            // Replace matches to add bold effect statically via HTML parsing
+                                            keywords.forEach((regex) => {
+                                                formattedFunc = formattedFunc.replace(regex, (match) => `<strong>${match}</strong>`);
+                                            });
+
+                                            return (
+                                                <Typography
+                                                    component="li"
+                                                    variant="body2"
+                                                    color="text.secondary"
+                                                    key={i}
+                                                    sx={{
+                                                        mb: 1,
+                                                        lineHeight: 1.6,
+                                                        fontSize: { xs: '0.8125rem', md: '0.875rem' },
+                                                        '& strong': {
+                                                            color: 'text.primary',
+                                                            fontWeight: 600,
+                                                        }
+                                                    }}
+                                                    dangerouslySetInnerHTML={{ __html: formattedFunc }}
+                                                />
+                                            );
+                                        })}
                                     </Box>
                                 </Box>
                             </TimelineContent>

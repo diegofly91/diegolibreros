@@ -55,7 +55,7 @@ export default function Hero() {
                             lineHeight: 1.2,
                         }}
                     >
-                        Full Stack Developer
+                        Full Stack & Backend Developer
                     </Typography>
 
                     <Typography
@@ -68,7 +68,7 @@ export default function Hero() {
                             lineHeight: 1.6,
                         }}
                     >
-                        Construyo aplicaciones escalables y modernas{' '}
+                        Especialista en ecosistemas{' '}
                         <Box
                             component="span"
                             sx={{
@@ -76,9 +76,9 @@ export default function Hero() {
                                 fontWeight: 600,
                             }}
                         >
-                            diseñando APIs robustas y aplicaciones enfocadas en el usuario
+                            Node.js, NestJS y React.
                         </Box>{' '}
-                        con arquitectura limpia y despliegue en entornos cloud.
+                        Diseño arquitecturas resilientes, APIs de alta concurrencia y despliegues en Cloud para soluciones B2B escalables.
                     </Typography>
 
                     {/* CTA Buttons */}
@@ -104,6 +104,8 @@ export default function Hero() {
                         >
                             Ver Proyectos
                         </Button>
+                        {/*
+
                         <Button
                             variant="outlined"
                             size="large"
@@ -122,6 +124,8 @@ export default function Hero() {
                         >
                             Descargar CV
                         </Button>
+                        */
+                        }
                     </Stack>
                 </Box>
             </Container>
