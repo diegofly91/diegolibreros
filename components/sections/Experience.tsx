@@ -9,14 +9,51 @@ import {
     TimelineContent,
     TimelineDot,
     TimelineOppositeContent,
-    timelineOppositeContentClasses,
 } from '@mui/lab';
 import WorkIcon from '@mui/icons-material/Work';
-import experienceData from '../../constants/experience';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import { useContent } from '../../lib/i18n/useContent';
+
+// Keywords highlighted in the timeline bullets to help recruiter scanning
+const KEYWORD_REGEX = [
+    /Node\.js/gi,
+    /NestJS/gi,
+    /React Native/gi,
+    /React/gi,
+    /Next\.js/gi,
+    /TypeScript/gi,
+    /CI\/CD/gi,
+    /Azure DevOps/gi,
+    /Azure/gi,
+    /GraphQL Subscriptions/gi,
+    /GraphQL/gi,
+    /PostgreSQL/gi,
+    /Redis/gi,
+    /RabbitMQ/gi,
+    /RAG/gi,
+    /SSE/gi,
+    /Docker/gi,
+    /Vue 3/gi,
+    /Pinia/gi,
+    /Application Insights/gi,
+    /Mailgun/gi,
+    /Google Maps/gi,
+    /Flash/gi,
+    /Electron/gi,
+];
+
+function highlightKeywords(text: string): string {
+    let formatted = text;
+    KEYWORD_REGEX.forEach((regex) => {
+        formatted = formatted.replace(regex, (match) => `<strong>${match}</strong>`);
+    });
+    return formatted;
+}
 
 export default function Experience() {
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+    const { experience, labels } = useContent();
 
     return (
         <Box
@@ -36,19 +73,20 @@ export default function Experience() {
                         textAlign: 'center',
                     }}
                 >
-                    Experiencia
+                    {labels.experience.title}
                 </Typography>
                 <Typography
                     variant="body1"
                     sx={{
                         color: 'text.secondary',
                         textAlign: 'center',
-                        maxWidth: '600px',
+                        maxWidth: '640px',
                         mx: 'auto',
                         mb: 6,
+                        fontSize: '1.05rem',
                     }}
                 >
-                    Mi trayectoria profesional en el desarrollo de software
+                    {labels.experience.subtitle}
                 </Typography>
 
                 <Timeline
@@ -56,21 +94,21 @@ export default function Experience() {
                     sx={
                         isMobile
                             ? {
-                                px: 0,
-                                '& .MuiTimelineItem-root:before': {
-                                    flex: 0,
-                                    padding: 0,
-                                },
-                                '& .MuiTimelineContent-root': {
-                                    paddingRight: 0,
-                                    paddingLeft: 1.5,
-                                },
-                            }
+                                  px: 0,
+                                  '& .MuiTimelineItem-root:before': {
+                                      flex: 0,
+                                      padding: 0,
+                                  },
+                                  '& .MuiTimelineContent-root': {
+                                      paddingRight: 0,
+                                      paddingLeft: 1.5,
+                                  },
+                              }
                             : {}
                     }
                 >
-                    {experienceData.map((exp, index) => (
-                        <TimelineItem key={index}>
+                    {experience.map((exp) => (
+                        <TimelineItem key={exp.id}>
                             {!isMobile && (
                                 <TimelineOppositeContent
                                     sx={{ m: 'auto 0' }}
@@ -127,8 +165,8 @@ export default function Experience() {
                                         component="h3"
                                         sx={{
                                             fontWeight: 700,
-                                            fontSize: { xs: '1.1rem', md: '1.25rem' },
-                                            lineHeight: 1.2,
+                                            fontSize: { xs: '1.05rem', md: '1.2rem' },
+                                            lineHeight: 1.25,
                                             mb: 0.5,
                                         }}
                                     >
@@ -136,67 +174,73 @@ export default function Experience() {
                                     </Typography>
                                     <Typography
                                         variant="subtitle2"
-                                        color="secondary"
                                         sx={{
-                                            mb: 2,
-                                            display: 'flex',
+                                            mb: 1.5,
+                                            display: 'inline-flex',
                                             alignItems: 'center',
-                                            flexWrap: 'wrap',
                                             gap: 0.5,
-                                            fontWeight: 500,
+                                            color: 'secondary.main',
+                                            fontWeight: 600,
                                             fontSize: { xs: '0.85rem', md: '0.875rem' },
                                         }}
                                     >
-                                        {exp.title}
-                                        {exp.url && (
+                                        {exp.url ? (
                                             <Typography
                                                 component="a"
                                                 href={exp.url}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 sx={{
-                                                    color: 'secondary.main',
+                                                    color: 'inherit',
                                                     textDecoration: 'none',
-                                                    fontSize: '0.75rem',
-                                                    '&:hover': {
-                                                        textDecoration: 'underline',
-                                                    },
+                                                    display: 'inline-flex',
+                                                    alignItems: 'center',
+                                                    gap: 0.5,
+                                                    '&:hover': { textDecoration: 'underline' },
                                                 }}
                                             >
-                                                🔗
+                                                {exp.company}
+                                                <OpenInNewIcon sx={{ fontSize: 14 }} />
                                             </Typography>
+                                        ) : (
+                                            exp.company
                                         )}
                                     </Typography>
+                                    {exp.summary && (
+                                        <Typography
+                                            variant="body2"
+                                            sx={{
+                                                color: 'text.primary',
+                                                fontStyle: 'italic',
+                                                mb: 2,
+                                                fontSize: { xs: '0.85rem', md: '0.9rem' },
+                                                lineHeight: 1.55,
+                                            }}
+                                        >
+                                            {exp.summary}
+                                        </Typography>
+                                    )}
                                     <Box component="ul" sx={{ pl: 2, m: 0 }}>
-                                        {exp.functions.map((func, i) => {
-                                            // Define keywords for recruiter scanning
-                                            const keywords = [/Node\.js/gi, /NestJS/gi, /React/gi, /Next\.js/gi, /CI\/CD/gi, /Azure/gi, /GraphQL/gi, /PostgreSQL/gi, /Redis/gi, /RabbitMQ/gi, /RAG/gi, /Cloud/gi, /SSE/gi, /Docker/gi];
-                                            let formattedFunc = func;
-
-                                            // Replace matches to add bold effect statically via HTML parsing
-                                            keywords.forEach((regex) => {
-                                                formattedFunc = formattedFunc.replace(regex, (match) => `<strong>${match}</strong>`);
-                                            });
-
-                                            return (
-                                                <Typography
-                                                    component="li"
-                                                    variant="body2"
-                                                    color="text.secondary"
-                                                    key={i}
-                                                    sx={{
-                                                        mb: 1,
-                                                        lineHeight: 1.6,
-                                                        fontSize: { xs: '0.8125rem', md: '0.875rem' },
-                                                        '& strong': {
-                                                            color: 'text.primary',
-                                                            fontWeight: 600,
-                                                        }
-                                                    }}
-                                                    dangerouslySetInnerHTML={{ __html: formattedFunc }}
-                                                />
-                                            );
-                                        })}
+                                        {exp.highlights.map((h, i) => (
+                                            <Typography
+                                                component="li"
+                                                variant="body2"
+                                                color="text.secondary"
+                                                key={i}
+                                                sx={{
+                                                    mb: 1,
+                                                    lineHeight: 1.65,
+                                                    fontSize: { xs: '0.825rem', md: '0.875rem' },
+                                                    '& strong': {
+                                                        color: 'text.primary',
+                                                        fontWeight: 600,
+                                                    },
+                                                }}
+                                                dangerouslySetInnerHTML={{
+                                                    __html: highlightKeywords(h),
+                                                }}
+                                            />
+                                        ))}
                                     </Box>
                                 </Box>
                             </TimelineContent>
@@ -207,4 +251,3 @@ export default function Experience() {
         </Box>
     );
 }
-

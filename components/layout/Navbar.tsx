@@ -14,18 +14,13 @@ import {
     ListItemButton,
     ListItemText,
     useScrollTrigger,
+    Tooltip,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import LanguageIcon from '@mui/icons-material/Language';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
-
-const navItems = [
-    { label: 'Inicio', href: '#home' },
-    { label: 'Sobre mí', href: '#about' },
-    { label: 'Habilidades', href: '#skills' },
-    { label: 'Proyectos', href: '#projects' },
-    { label: 'Experiencia', href: '#experience' },
-];
+import { useLanguage } from '../../lib/i18n/LanguageContext';
 
 export default function Navbar() {
     const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -35,6 +30,16 @@ export default function Navbar() {
         disableHysteresis: true,
         threshold: 50,
     });
+    const { t, locale, toggle } = useLanguage();
+
+    const navItems = [
+        { label: t.nav.home, href: '#home' },
+        { label: t.nav.about, href: '#about' },
+        { label: t.nav.skills, href: '#skills' },
+        { label: t.nav.projects, href: '#projects' },
+        { label: t.nav.experience, href: '#experience' },
+        { label: t.nav.contact, href: '#contact' },
+    ];
 
     const handleDrawerToggle = () => {
         setMobileOpen(!mobileOpen);
@@ -49,7 +54,7 @@ export default function Navbar() {
     };
 
     const drawer = (
-        <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center', py: 2 }}>
+        <Box sx={{ textAlign: 'center', py: 2 }}>
             <Typography variant="h6" sx={{ my: 2, fontWeight: 700 }}>
                 DL
             </Typography>
@@ -65,11 +70,8 @@ export default function Navbar() {
                     </ListItem>
                 ))}
                 <ListItem disablePadding>
-                    <ListItemButton
-                        sx={{ textAlign: 'center' }}
-                        onClick={() => scrollToSection('#contact')}
-                    >
-                        <ListItemText primary="Contact" />
+                    <ListItemButton sx={{ textAlign: 'center' }} onClick={toggle}>
+                        <ListItemText primary={`🌐 ${t.language.switchTo}`} />
                     </ListItemButton>
                 </ListItem>
             </List>
@@ -83,16 +85,13 @@ export default function Navbar() {
                 elevation={0}
                 sx={{
                     backdropFilter: trigger ? 'blur(20px)' : 'none',
-                    backgroundColor: trigger
-                        ? 'rgba(10, 10, 10, 0.8)'
-                        : 'transparent',
+                    backgroundColor: trigger ? 'rgba(10, 10, 10, 0.8)' : 'transparent',
                     borderBottom: trigger ? '1px solid rgba(255,255,255,0.1)' : 'none',
                     transition: 'all 0.3s ease-in-out',
                 }}
             >
                 <Container maxWidth="lg">
                     <Toolbar disableGutters>
-                        {/* Logo */}
                         <Typography
                             variant="h6"
                             component="div"
@@ -110,7 +109,6 @@ export default function Navbar() {
                             Diego Libreros
                         </Typography>
 
-                        {/* Desktop Navigation */}
                         {!isMobile && (
                             <Box sx={{ flexGrow: 1, display: 'flex', gap: 1 }}>
                                 {navItems.map((item) => (
@@ -133,28 +131,44 @@ export default function Navbar() {
 
                         <Box sx={{ flexGrow: 1 }} />
 
-                        {/* CTA Button 
-                        {!isMobile && (
-                            <Button
-                                variant="contained"
-                                onClick={() => scrollToSection('#contact')}
+                        {/* Language toggle */}
+                        <Tooltip title={t.language.label}>
+                            <IconButton
+                                onClick={toggle}
+                                aria-label={t.language.label}
                                 sx={{
-                                    px: 3,
-                                    py: 1,
+                                    color: 'text.secondary',
+                                    border: '1px solid rgba(255,255,255,0.1)',
+                                    borderRadius: 2,
+                                    px: 1.5,
+                                    py: 0.5,
+                                    gap: 0.75,
+                                    fontSize: '0.85rem',
+                                    fontWeight: 600,
+                                    '&:hover': {
+                                        color: 'text.primary',
+                                        backgroundColor: 'rgba(255,255,255,0.05)',
+                                        borderColor: 'rgba(255,255,255,0.2)',
+                                    },
                                 }}
                             >
-                                Hablemos
-                            </Button>
-                        )}
-                            */}
+                                <LanguageIcon sx={{ fontSize: 18 }} />
+                                <Typography
+                                    component="span"
+                                    sx={{ fontSize: '0.8rem', fontWeight: 700, letterSpacing: '0.05em' }}
+                                >
+                                    {locale.toUpperCase()}
+                                </Typography>
+                            </IconButton>
+                        </Tooltip>
 
-                        {/* Mobile menu icon */}
                         {isMobile && (
                             <IconButton
                                 color="inherit"
                                 aria-label="open drawer"
-                                edge="start"
+                                edge="end"
                                 onClick={handleDrawerToggle}
+                                sx={{ ml: 1 }}
                             >
                                 <MenuIcon />
                             </IconButton>
@@ -163,14 +177,11 @@ export default function Navbar() {
                 </Container>
             </AppBar>
 
-            {/* Mobile Drawer */}
             <Drawer
                 variant="temporary"
                 open={mobileOpen}
                 onClose={handleDrawerToggle}
-                ModalProps={{
-                    keepMounted: true,
-                }}
+                ModalProps={{ keepMounted: true }}
                 sx={{
                     display: { xs: 'block', md: 'none' },
                     '& .MuiDrawer-paper': {

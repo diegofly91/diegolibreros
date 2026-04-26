@@ -7,7 +7,6 @@ import {
     Grid,
     Card,
     CardContent,
-    CardMedia,
     Chip,
     Button,
     Stack,
@@ -20,7 +19,8 @@ import LaunchIcon from '@mui/icons-material/Launch';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import CloseIcon from '@mui/icons-material/Close';
 import ZoomInIcon from '@mui/icons-material/ZoomIn';
-import { projects } from '../../data/mockData';
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import { useContent } from '../../lib/i18n/useContent';
 import Image from 'next/image';
 
 const MIN_ZOOM = 0.5;
@@ -28,6 +28,7 @@ const MAX_ZOOM = 4;
 const ZOOM_SENSITIVITY = 0.002;
 
 export default function Projects() {
+    const { projects, labels } = useContent();
     const [selectedImage, setSelectedImage] = React.useState<string | null>(null);
     const [zoom, setZoom] = React.useState(1);
     const [pan, setPan] = React.useState({ x: 0, y: 0 });
@@ -101,45 +102,54 @@ export default function Projects() {
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 backgroundAttachment: { xs: 'scroll', md: 'fixed' },
+                position: 'relative',
+                '&::before': {
+                    content: '""',
+                    position: 'absolute',
+                    inset: 0,
+                    backgroundColor: 'rgba(0,0,0,0.55)',
+                    zIndex: 0,
+                },
             }}
         >
-            <Container maxWidth="lg">
+            <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 1 }}>
                 <Typography
                     variant="h2"
                     sx={{
                         fontSize: { xs: '2rem', md: '3rem' },
                         fontWeight: 700,
                         color: '#fff',
-                        textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
                         mb: 2,
                         textAlign: 'center',
                     }}
                 >
-                    Proyectos Destacados
+                    {labels.projects.title}
                 </Typography>
                 <Typography
                     variant="body1"
                     sx={{
-                        color: '#fff',
-                        textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+                        color: 'rgba(255,255,255,0.85)',
                         textAlign: 'center',
-                        maxWidth: '600px',
+                        maxWidth: '720px',
                         mx: 'auto',
                         mb: 6,
-                        opacity: 0.9,
+                        fontSize: '1.05rem',
+                        lineHeight: 1.7,
                     }}
                 >
-                    Selección de proyectos donde la arquitectura cloud, algoritmos de alto rendimiento y el diseño de sistemas fueron clave para el éxito del negocio.
+                    {labels.projects.subtitle}
                 </Typography>
 
                 <Grid container spacing={4}>
                     {projects.map((project) => (
-                        <Grid item xs={12} md={project.featured ? 12 : 6} key={project.title}>
+                        <Grid item xs={12} md={project.featured ? 12 : 6} key={project.id}>
                             <Card
                                 sx={{
                                     height: '100%',
                                     display: 'flex',
                                     flexDirection: project.featured ? { xs: 'column', md: 'row' } : 'column',
+                                    backgroundColor: 'rgba(17,17,17,0.92)',
+                                    backdropFilter: 'blur(8px)',
                                     transition: 'all 0.3s ease',
                                     '&:hover': {
                                         transform: 'translateY(-8px)',
@@ -152,22 +162,18 @@ export default function Projects() {
                                         position: 'relative',
                                         width: project.featured ? { xs: '100%', md: '50%' } : '100%',
                                         height: project.featured ? { xs: 250, md: 'auto' } : 250,
+                                        minHeight: project.featured ? { md: 380 } : undefined,
                                         backgroundColor: 'rgba(255,255,255,0.05)',
                                         overflow: 'hidden',
                                         cursor: 'zoom-in',
-                                        '&:hover .zoom-overlay': {
-                                            opacity: 1,
-                                        },
+                                        '&:hover .zoom-overlay': { opacity: 1 },
                                     }}
                                 >
                                     <Box
                                         className="zoom-overlay"
                                         sx={{
                                             position: 'absolute',
-                                            top: 0,
-                                            left: 0,
-                                            width: '100%',
-                                            height: '100%',
+                                            inset: 0,
                                             backgroundColor: 'rgba(0,0,0,0.3)',
                                             display: 'flex',
                                             alignItems: 'center',
@@ -183,23 +189,26 @@ export default function Projects() {
                                         src={project.image}
                                         alt={project.title}
                                         fill
-                                        sizes={project.featured ? "(max-width: 768px) 100vw, 50vw" : "(max-width: 768px) 100vw, 50vw"}
+                                        sizes="(max-width: 768px) 100vw, 50vw"
                                         style={{ objectFit: 'cover' }}
                                         priority={project.featured}
                                     />
                                 </Box>
+
                                 <CardContent
                                     sx={{
                                         flex: 1,
                                         display: 'flex',
                                         flexDirection: 'column',
+                                        p: { xs: 3, md: 4 },
                                     }}
                                 >
                                     <Typography
                                         variant="h5"
                                         sx={{
-                                            fontWeight: 600,
+                                            fontWeight: 700,
                                             mb: 2,
+                                            fontSize: { xs: '1.25rem', md: '1.5rem' },
                                         }}
                                     >
                                         {project.title}
@@ -208,16 +217,45 @@ export default function Projects() {
                                         variant="body2"
                                         color="text.secondary"
                                         sx={{
-                                            mb: 4,
-                                            lineHeight: 1.8,
-                                            fontSize: { xs: '0.875rem', md: '0.95rem' },
-                                            flexGrow: 1
+                                            mb: 3,
+                                            lineHeight: 1.75,
+                                            fontSize: { xs: '0.9rem', md: '0.95rem' },
                                         }}
                                     >
                                         {project.description}
                                     </Typography>
 
-                                    <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mb: 3 }}>
+                                    {project.highlights.length > 0 && (
+                                        <Box component="ul" sx={{ listStyle: 'none', p: 0, m: 0, mb: 3 }}>
+                                            {project.highlights.map((h, i) => (
+                                                <Box
+                                                    component="li"
+                                                    key={i}
+                                                    sx={{
+                                                        display: 'flex',
+                                                        alignItems: 'flex-start',
+                                                        gap: 1,
+                                                        mb: 1,
+                                                        fontSize: { xs: '0.825rem', md: '0.875rem' },
+                                                        color: 'text.secondary',
+                                                        lineHeight: 1.6,
+                                                    }}
+                                                >
+                                                    <CheckCircleOutlineIcon
+                                                        sx={{
+                                                            fontSize: 16,
+                                                            color: 'secondary.main',
+                                                            mt: '2px',
+                                                            flexShrink: 0,
+                                                        }}
+                                                    />
+                                                    <span>{h}</span>
+                                                </Box>
+                                            ))}
+                                        </Box>
+                                    )}
+
+                                    <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.75, mb: 3 }}>
                                         {project.stack.map((tech) => (
                                             <Chip
                                                 key={tech}
@@ -226,16 +264,16 @@ export default function Projects() {
                                                 sx={{
                                                     backgroundColor: 'rgba(0,112,243,0.08)',
                                                     color: 'secondary.main',
-                                                    border: '1px solid rgba(0,112,243,0.2)',
+                                                    border: '1px solid rgba(0,112,243,0.25)',
                                                     fontWeight: 600,
-                                                    fontSize: '0.75rem'
+                                                    fontSize: '0.72rem',
                                                 }}
                                             />
                                         ))}
                                     </Box>
 
                                     <Stack direction="row" spacing={2} sx={{ mt: 'auto' }}>
-                                        {project.demo !== '#' && (
+                                        {project.demo && (
                                             <Button
                                                 component="a"
                                                 variant="outlined"
@@ -246,15 +284,13 @@ export default function Projects() {
                                                 rel="noopener noreferrer"
                                                 sx={{
                                                     borderColor: 'rgba(255,255,255,0.2)',
-                                                    '&:hover': {
-                                                        borderColor: 'rgba(255,255,255,0.4)',
-                                                    },
+                                                    '&:hover': { borderColor: 'rgba(255,255,255,0.4)' },
                                                 }}
                                             >
-                                                Demo
+                                                {labels.projects.demo}
                                             </Button>
                                         )}
-                                        {project.github !== '#' && (
+                                        {project.github && (
                                             <Button
                                                 component="a"
                                                 variant="outlined"
@@ -265,12 +301,10 @@ export default function Projects() {
                                                 rel="noopener noreferrer"
                                                 sx={{
                                                     borderColor: 'rgba(255,255,255,0.2)',
-                                                    '&:hover': {
-                                                        borderColor: 'rgba(255,255,255,0.4)',
-                                                    },
+                                                    '&:hover': { borderColor: 'rgba(255,255,255,0.4)' },
                                                 }}
                                             >
-                                                Code
+                                                {labels.projects.code}
                                             </Button>
                                         )}
                                     </Stack>
@@ -292,7 +326,7 @@ export default function Projects() {
                 slotProps={{
                     backdrop: {
                         timeout: 500,
-                        sx: { backgroundColor: 'rgba(0, 0, 0, 0.9)' }
+                        sx: { backgroundColor: 'rgba(0, 0, 0, 0.9)' },
                     },
                 }}
             >
@@ -319,9 +353,7 @@ export default function Projects() {
                                 right: 20,
                                 color: 'white',
                                 backgroundColor: 'rgba(255,255,255,0.1)',
-                                '&:hover': {
-                                    backgroundColor: 'rgba(255,255,255,0.2)',
-                                },
+                                '&:hover': { backgroundColor: 'rgba(255,255,255,0.2)' },
                                 zIndex: 10,
                             }}
                         >

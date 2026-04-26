@@ -1,38 +1,37 @@
 'use client';
 import * as React from 'react';
-import {
-    Box,
-    Container,
-    Typography,
-    TextField,
-    Button,
-    Grid,
-    Alert,
-} from '@mui/material';
-import SendIcon from '@mui/icons-material/Send';
+import { Box, Container, Typography, Stack, Button, Paper } from '@mui/material';
+import EmailIcon from '@mui/icons-material/Email';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import PlaceIcon from '@mui/icons-material/Place';
+import { useLanguage } from '../../lib/i18n/LanguageContext';
+import { CONTACT } from '../../lib/contact';
 
 export default function Contact() {
-    const [formData, setFormData] = React.useState({
-        name: '',
-        email: '',
-        message: '',
-    });
-    const [submitted, setSubmitted] = React.useState(false);
+    const { t } = useLanguage();
 
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-        setFormData({
-            ...formData,
-            [e.target.name]: e.target.value,
-        });
-    };
-
-    const handleSubmit = (e: React.FormEvent) => {
-        e.preventDefault();
-        // Aquí iría la lógica de envío del formulario
-        console.log('Form submitted:', formData);
-        setSubmitted(true);
-        setTimeout(() => setSubmitted(false), 5000);
-    };
+    const channels = [
+        {
+            icon: <EmailIcon sx={{ fontSize: 28 }} />,
+            label: t.contact.emailLabel,
+            value: CONTACT.email,
+            href: `mailto:${CONTACT.email}`,
+            primary: true,
+        },
+        {
+            icon: <LinkedInIcon sx={{ fontSize: 28 }} />,
+            label: t.contact.linkedinLabel,
+            value: 'diego-libreros',
+            href: CONTACT.linkedin,
+        },
+        {
+            icon: <GitHubIcon sx={{ fontSize: 28 }} />,
+            label: t.contact.githubLabel,
+            value: 'diegofly91',
+            href: CONTACT.github,
+        },
+    ];
 
     return (
         <Box
@@ -52,117 +51,110 @@ export default function Contact() {
                         textAlign: 'center',
                     }}
                 >
-                    Hablemos
+                    {t.contact.title}
                 </Typography>
                 <Typography
                     variant="body1"
                     sx={{
                         color: 'text.secondary',
                         textAlign: 'center',
-                        maxWidth: '600px',
+                        maxWidth: '640px',
                         mx: 'auto',
                         mb: 6,
+                        fontSize: '1.05rem',
+                        lineHeight: 1.7,
                     }}
                 >
-                    ¿Tienes un proyecto en mente? Estoy disponible para colaboraciones y nuevas oportunidades
+                    {t.contact.subtitle}
                 </Typography>
 
-                {submitted && (
-                    <Alert severity="success" sx={{ mb: 3 }}>
-                        ¡Mensaje enviado! Te responderé pronto.
-                    </Alert>
-                )}
-
-                <Box
-                    component="form"
-                    onSubmit={handleSubmit}
-                    sx={{
-                        p: { xs: 3, md: 4 },
-                        borderRadius: 2,
-                        border: '1px solid rgba(255,255,255,0.1)',
-                        backgroundColor: 'rgba(255,255,255,0.02)',
-                    }}
-                >
-                    <Grid container spacing={3}>
-                        <Grid item xs={12} sm={6}>
-                            <TextField
-                                fullWidth
-                                label="Nombre"
-                                name="name"
-                                value={formData.name}
-                                onChange={handleChange}
-                                required
+                <Stack spacing={2.5} sx={{ mb: 5 }}>
+                    {channels.map((channel) => (
+                        <Paper
+                            key={channel.label}
+                            component="a"
+                            href={channel.href}
+                            target={channel.href.startsWith('mailto:') ? undefined : '_blank'}
+                            rel={channel.href.startsWith('mailto:') ? undefined : 'noopener noreferrer'}
+                            elevation={0}
+                            sx={{
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: 3,
+                                p: { xs: 2.5, md: 3 },
+                                borderRadius: 2,
+                                border: '1px solid rgba(255,255,255,0.08)',
+                                backgroundColor: channel.primary
+                                    ? 'rgba(0,112,243,0.05)'
+                                    : 'rgba(255,255,255,0.02)',
+                                textDecoration: 'none',
+                                color: 'inherit',
+                                transition: 'all 0.2s ease',
+                                '&:hover': {
+                                    transform: 'translateY(-2px)',
+                                    borderColor: 'secondary.main',
+                                    backgroundColor: 'rgba(0,112,243,0.08)',
+                                },
+                            }}
+                        >
+                            <Box
                                 sx={{
-                                    '& .MuiOutlinedInput-root': {
-                                        '& fieldset': {
-                                            borderColor: 'rgba(255,255,255,0.2)',
-                                        },
-                                        '&:hover fieldset': {
-                                            borderColor: 'rgba(255,255,255,0.3)',
-                                        },
-                                    },
-                                }}
-                            />
-                        </Grid>
-                        <Grid item xs={12} sm={6}>
-                            <TextField
-                                fullWidth
-                                label="Email"
-                                name="email"
-                                type="email"
-                                value={formData.email}
-                                onChange={handleChange}
-                                required
-                                sx={{
-                                    '& .MuiOutlinedInput-root': {
-                                        '& fieldset': {
-                                            borderColor: 'rgba(255,255,255,0.2)',
-                                        },
-                                        '&:hover fieldset': {
-                                            borderColor: 'rgba(255,255,255,0.3)',
-                                        },
-                                    },
-                                }}
-                            />
-                        </Grid>
-                        <Grid item xs={12}>
-                            <TextField
-                                fullWidth
-                                label="Mensaje"
-                                name="message"
-                                multiline
-                                rows={6}
-                                value={formData.message}
-                                onChange={handleChange}
-                                required
-                                sx={{
-                                    '& .MuiOutlinedInput-root': {
-                                        '& fieldset': {
-                                            borderColor: 'rgba(255,255,255,0.2)',
-                                        },
-                                        '&:hover fieldset': {
-                                            borderColor: 'rgba(255,255,255,0.3)',
-                                        },
-                                    },
-                                }}
-                            />
-                        </Grid>
-                        <Grid item xs={12}>
-                            <Button
-                                type="submit"
-                                variant="contained"
-                                size="large"
-                                endIcon={<SendIcon />}
-                                fullWidth
-                                sx={{
-                                    py: 1.5,
-                                    fontSize: '1rem',
+                                    color: channel.primary ? 'secondary.main' : 'text.secondary',
+                                    display: 'flex',
                                 }}
                             >
-                                Enviar Mensaje
-                            </Button>
-                        </Grid>
-                    </Grid>
+                                {channel.icon}
+                            </Box>
+                            <Box sx={{ flex: 1, minWidth: 0 }}>
+                                <Typography
+                                    variant="caption"
+                                    sx={{
+                                        color: 'text.secondary',
+                                        textTransform: 'uppercase',
+                                        letterSpacing: '0.08em',
+                                        fontWeight: 600,
+                                        fontSize: '0.7rem',
+                                    }}
+                                >
+                                    {channel.label}
+                                </Typography>
+                                <Typography
+                                    variant="body1"
+                                    sx={{
+                                        fontWeight: 500,
+                                        wordBreak: 'break-all',
+                                        fontSize: { xs: '0.95rem', md: '1.05rem' },
+                                    }}
+                                >
+                                    {channel.value}
+                                </Typography>
+                            </Box>
+                        </Paper>
+                    ))}
+                </Stack>
+
+                <Stack
+                    direction="row"
+                    spacing={1.5}
+                    alignItems="center"
+                    justifyContent="center"
+                    sx={{ color: 'text.secondary' }}
+                >
+                    <PlaceIcon sx={{ fontSize: 18 }} />
+                    <Typography variant="body2">{t.contact.location}</Typography>
+                </Stack>
+
+                <Box sx={{ textAlign: 'center', mt: 4 }}>
+                    <Button
+                        variant="contained"
+                        size="large"
+                        component="a"
+                        href={`mailto:${CONTACT.email}`}
+                        startIcon={<EmailIcon />}
+                        sx={{ px: 5, py: 1.5 }}
+                    >
+                        {t.contact.emailCta}
+                    </Button>
                 </Box>
             </Container>
         </Box>

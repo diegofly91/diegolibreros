@@ -1,20 +1,21 @@
 'use client';
 import * as React from 'react';
-import { Box, Container, Typography, Stack, IconButton, Link } from '@mui/material';
+import { Box, Container, Typography, Stack, IconButton } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import EmailIcon from '@mui/icons-material/Email';
-
-const socialLinks = [
-    { icon: <GitHubIcon />, href: 'https://github.com/diegofly91', label: 'GitHub' },
-    { icon: <LinkedInIcon />, href: 'https://www.linkedin.com/in/diego-libreros-b69828159/', label: 'LinkedIn' },
-    /*{ icon: <TwitterIcon />, href: 'https://twitter.com/diegolibreros', label: 'Twitter' },
-     { icon: <EmailIcon />, href: 'mailto:diego@example.com', label: 'Email' },
-      */
-];
+import { useLanguage } from '../../lib/i18n/LanguageContext';
+import { CONTACT } from '../../lib/contact';
 
 export default function Footer() {
+    const { t } = useLanguage();
+
+    const socialLinks = [
+        { icon: <GitHubIcon />, href: CONTACT.github, label: 'GitHub' },
+        { icon: <LinkedInIcon />, href: CONTACT.linkedin, label: 'LinkedIn' },
+        { icon: <EmailIcon />, href: `mailto:${CONTACT.email}`, label: 'Email' },
+    ];
+
     return (
         <Box
             component="footer"
@@ -40,8 +41,12 @@ export default function Footer() {
                             <IconButton
                                 key={social.label}
                                 href={social.href}
-                                target="_blank"
-                                rel="noopener noreferrer"
+                                target={social.href.startsWith('mailto:') ? undefined : '_blank'}
+                                rel={
+                                    social.href.startsWith('mailto:')
+                                        ? undefined
+                                        : 'noopener noreferrer'
+                                }
                                 sx={{
                                     color: 'text.secondary',
                                     '&:hover': {
@@ -57,7 +62,7 @@ export default function Footer() {
                     </Stack>
 
                     <Typography variant="body2" color="text.secondary">
-                        © {new Date().getFullYear()} Diego Libreros. Todos los derechos reservados.
+                        © {new Date().getFullYear()} Diego Libreros. {t.footer.rights}
                     </Typography>
                 </Stack>
             </Container>
