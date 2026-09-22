@@ -47,6 +47,24 @@ export interface AboutContent {
     badges: { label: string; value: string }[];
 }
 
+export interface AiWorkflowStep {
+    title: string;
+    description: string;
+}
+
+export interface AiWorkflowTool {
+    name: string;
+    description: string;
+}
+
+export interface AiWorkflowContent {
+    title: string;
+    subtitle: string;
+    principle: string;
+    steps: AiWorkflowStep[];
+    tools: AiWorkflowTool[];
+}
+
 export interface SectionLabels {
     about: { title: string };
     skills: {
@@ -64,6 +82,7 @@ interface ContentShape {
     about: AboutContent;
     skillCategories: SkillCategory[];
     projects: Project[];
+    aiWorkflow: AiWorkflowContent;
     experience: ExperienceEntry[];
 }
 
@@ -194,14 +213,14 @@ const es: ContentShape = {
             id: 'rag',
             title: 'Buscador con IA (RAG)',
             description:
-                'Motor RAG en producción en Axonier para búsqueda semántica sobre documentos corporativos multi-formato. Chunking adaptativo + re-ranking semántico + streaming SSE.',
+                'Motor RAG en producción para búsqueda contextual sobre documentos corporativos. NestJS 11 + Azure Cognitive Search, embeddings y respuestas por SSE.',
             highlights: [
-                '~40% menos consumo de tokens vs. retrieval naïve gracias a chunking adaptativo.',
-                'Respuestas en streaming continuo (SSE) para latencia perceptual baja.',
-                'Integración con Azure AI + HuggingFace + vector search.',
+                'Ingesta de HTML, PDF, DOCX, XLSX y ZIP; búsqueda full-text y semántica.',
+                'Expansión de consultas y contexto estructurado TOON para respuestas fundamentadas.',
+                'Chat contextual por sitio o global con proveedores Groq/OpenAI seleccionables y herramientas MCP acotadas.',
             ],
             image: 'search-ia.png',
-            stack: ['NestJS', 'Azure AI', 'HuggingFace', 'Vector Search', 'RAG', 'TypeScript'],
+            stack: ['NestJS 11', 'Azure Cognitive Search', 'Azure OpenAI', 'Groq', 'RAG', 'TypeScript'],
         },
         {
             id: 'metrics',
@@ -241,6 +260,24 @@ const es: ContentShape = {
             demo: 'https://www.postadigital.com',
         },
     ],
+    aiWorkflow: {
+        title: 'Ingeniería asistida por IA',
+        subtitle: 'La IA acelera el trabajo; la arquitectura, el alcance, la revisión y las decisiones finales siguen siendo humanas.',
+        principle: 'Explore → Specify → Implement → Verify: usar asistentes con contexto y controles explícitos, sin delegar el juicio de ingeniería.',
+        steps: [
+            { title: 'Explorar', description: 'Entender el código, las restricciones y el impacto antes de cambiarlo.' },
+            { title: 'Especificar', description: 'Convertir decisiones en requisitos, diseño y tareas revisables.' },
+            { title: 'Implementar', description: 'Ejecutar cambios acotados con el contexto y los límites definidos.' },
+            { title: 'Verificar', description: 'Comprobar el resultado y revisar riesgos antes de darlo por terminado.' },
+        ],
+        tools: [
+            { name: 'Pi', description: 'Orquestación y ejecución de trabajo asistido.' },
+            { name: 'gentle-pi', description: 'Disciplina ODD/SDD y carga de revisión controlada.' },
+            { name: 'OpenSpec', description: 'Requisitos, diseño y tareas versionados.' },
+            { name: 'CodeGraph', description: 'Relaciones e impacto en el código.' },
+            { name: 'Engram', description: 'Decisiones y contexto entre sesiones.' },
+        ],
+    },
     experience: [
         {
             id: 'turnia-exp',
@@ -268,7 +305,7 @@ const es: ContentShape = {
             date: 'Ago 2022 — Actualidad',
             summary: 'Backend en producción + motor de búsqueda con IA + infraestructura cloud.',
             highlights: [
-                'Diseñé un motor RAG que indexa documentos multi-formato y reduce ~40% el consumo de tokens vs. retrieval naïve, con respuestas en streaming SSE.',
+                'Diseñé un motor RAG que indexa documentos multi-formato, construye contexto para respuestas fundamentadas y entrega streaming SSE.',
                 'Construí una librería de formularios dinámicos que abstrae validaciones cruzadas y flujos por pasos en un esquema declarativo.',
                 'Establecí pipelines CI/CD en Azure DevOps reduciendo errores manuales en deploys.',
                 'Integré servicios cloud (gestión de archivos, autenticación, parametrización) bajo arquitectura modular.',
@@ -417,14 +454,14 @@ const en: ContentShape = {
             id: 'rag',
             title: 'AI Search Engine (RAG)',
             description:
-                'Production RAG engine at Axonier for semantic search over multi-format corporate documents. Adaptive chunking + semantic re-ranking + SSE streaming.',
+                'Production RAG engine for contextual search across corporate documents. NestJS 11 + Azure Cognitive Search, embeddings, and SSE responses.',
             highlights: [
-                '~40% lower token consumption vs. naïve retrieval thanks to adaptive chunking.',
-                'Continuous streaming responses (SSE) for low perceptual latency.',
-                'Integration with Azure AI + HuggingFace + vector search.',
+                'HTML, PDF, DOCX, XLSX, and ZIP ingestion with full-text and semantic search.',
+                'Query expansion and structured TOON context for grounded responses.',
+                'Site and global contextual chat with selectable Groq/OpenAI providers and bounded MCP tools.',
             ],
             image: 'search-ia.png',
-            stack: ['NestJS', 'Azure AI', 'HuggingFace', 'Vector Search', 'RAG', 'TypeScript'],
+            stack: ['NestJS 11', 'Azure Cognitive Search', 'Azure OpenAI', 'Groq', 'RAG', 'TypeScript'],
         },
         {
             id: 'metrics',
@@ -464,6 +501,24 @@ const en: ContentShape = {
             demo: 'https://www.postadigital.com',
         },
     ],
+    aiWorkflow: {
+        title: 'AI-assisted engineering',
+        subtitle: 'AI accelerates engineering work; architecture, scope, review, and final decisions remain human-owned.',
+        principle: 'Explore → Specify → Implement → Verify: use assistants with explicit context and controls, without delegating engineering judgment.',
+        steps: [
+            { title: 'Explore', description: 'Understand the code, constraints, and impact before changing it.' },
+            { title: 'Specify', description: 'Turn decisions into reviewable requirements, design, and tasks.' },
+            { title: 'Implement', description: 'Make bounded changes with defined context and limits.' },
+            { title: 'Verify', description: 'Check the outcome and review risks before calling work complete.' },
+        ],
+        tools: [
+            { name: 'Pi', description: 'Orchestration and execution of assisted work.' },
+            { name: 'gentle-pi', description: 'ODD/SDD discipline and controlled review workload.' },
+            { name: 'OpenSpec', description: 'Versioned requirements, design, and tasks.' },
+            { name: 'CodeGraph', description: 'Code relationships and impact.' },
+            { name: 'Engram', description: 'Decisions and context across sessions.' },
+        ],
+    },
     experience: [
         {
             id: 'turnia-exp',
@@ -491,7 +546,7 @@ const en: ContentShape = {
             date: 'Aug 2022 — Present',
             summary: 'Production backend + AI search engine + cloud infrastructure.',
             highlights: [
-                'Designed a RAG engine that indexes multi-format documents and cuts token consumption by ~40% vs. naïve retrieval, with SSE streaming responses.',
+                'Designed a RAG engine that indexes multi-format documents, builds context for grounded responses, and delivers SSE streaming.',
                 'Built a dynamic forms library that abstracts cross-field validations and step flows into a declarative schema.',
                 'Established CI/CD pipelines on Azure DevOps reducing manual deploy errors.',
                 'Integrated cloud services (file management, authentication, parameterization) under modular architecture.',

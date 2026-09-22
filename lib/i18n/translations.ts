@@ -6,6 +6,7 @@ export interface TranslationDict {
         about: string;
         skills: string;
         projects: string;
+        aiWorkflow: string;
         experience: string;
         contact: string;
     };
@@ -45,6 +46,7 @@ export const translations: Record<Locale, TranslationDict> = {
             about: 'Sobre mí',
             skills: 'Stack',
             projects: 'Proyectos',
+            aiWorkflow: 'Flujo IA',
             experience: 'Experiencia',
             contact: 'Contacto',
         },
@@ -84,6 +86,7 @@ export const translations: Record<Locale, TranslationDict> = {
             about: 'About',
             skills: 'Stack',
             projects: 'Projects',
+            aiWorkflow: 'AI workflow',
             experience: 'Experience',
             contact: 'Contact',
         },
